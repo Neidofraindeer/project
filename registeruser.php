@@ -134,7 +134,7 @@ button:hover {
 </head>
 <body>
 
-<form id="form1" name="form1"method="post" action="reg_success.php">  
+<form method="post" action="reg_success.php">  
   <?php include('error.php')?>
   <?php if (isset($_SESSION['error'])): ?>
     <div class="error">
@@ -167,9 +167,6 @@ button:hover {
         <input type="submit" name="reg_user" class="btn btn-success" value="สมัครสมาชิก"><br>
         <a class="btn btn-success" href='loginuser.php'>เข้าสู่ระบบ</a><br><br>
         <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
-      
-         
-
 </form> 
 </body>
 </html>

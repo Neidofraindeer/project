@@ -2,7 +2,7 @@
         session_start();
         include('conn.php');
 
-        $error = array();
+        $errors = array();
         if(isset($_POST['reg_user'])){
             $Username= mysqli_real_escape_string($conn,$_POST['Username']);
             $Firstname= mysqli_real_escape_string($conn,$_POST['Firstname']);
@@ -15,32 +15,47 @@
             $Tel= mysqli_real_escape_string($conn,$_POST['Tel']);
             
         if(empty($Username)){
-            array_push($error,"ต้องใส่ชื่อผู้ใช้");
+            array_push($errors,"ต้องใส่ชื่อผู้ใช้");
+        }
+        if(empty($Firstname)){
+            array_push($errors,"ต้องใส่ชื่อ");
+        }
+        if(empty($Lastname)){
+            array_push($errors,"ต้องใส่นามสกุล");
         }
         if(empty($Email)){
-            array_push($error,"ต้องใส่อีเมล์");
+            array_push($errors,"ต้องใส่อีเมล์");
         }
         if(empty($Password1)){
-            array_push($error,"ต้องใส่รหัสผ่าน");
+            array_push($errors,"ต้องใส่รหัสผ่าน");
         }
         if(empty($Password1 != $Password2)){
-            array_push($error,"รหัสไม่ถูกต้อง");
+            array_push($errors,"รหัสไม่ถูกต้อง");
         }
-        
+        if(empty($Address)){
+            array_push($errors,"ต้องใส่ที่อยู่");
+        }
+        if(empty($Zipcode)){
+            array_push($errors,"ต้องใส่รหัสไปรษณีย์");
+        }
+        if(empty($Tel)){
+            array_push($errors,"ต้องใส่หมายเลขโทรศัพท์");
+        }
+
         $user_check_query = "SELECT * FROM tb_regis WHERE Username = '$Username' OR Email = '$Email'";
         $query = mysqli_query($conn,$user_check_query);
         $result= mysqli_fetch_assoc($query);
 
         if($result){
             if($result['Username'] === $Username){
-                array_push($error,"ชื่อผู้ใช้นี่มีอยู่แล้ว");
+                array_push($errors,"ชื่อผู้ใช้นี่มีอยู่แล้ว");
             }
             if($result['Email'] === $Email){
-                        array_push($error,"อีเมล์นี่มีอยู่แล้ว");
+                        array_push($errors,"อีเมล์นี่มีอยู่แล้ว");
             }
         }
 
-        if(count($error) == 0){
+        if(count($errors) == 0){
             $Password = md5($Password1);
 
             $sql="INSERT INTO tb_regis (Username,Firstname,Lastname,Email,Password,Address,Zipcode,Tel) 
@@ -51,7 +66,7 @@
             $_SESSION['success']= "เข้าสู่ระบบ";
             header('location: index.php');
         }else{
-            array_push($error,"ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว");
+            array_push($errors,"ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว");
             $_SESSION['error'] = "ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว";
             header("location: registeruser.php");
         }

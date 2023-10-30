@@ -2,7 +2,7 @@
         session_start();
         include ('conn.php');
         
-        $error = array();
+        $errors = array();
 
         if(isset($_POST['login_user'])){
             $Username= mysqli_real_escape_string($conn,$_POST['Username']);
@@ -10,13 +10,13 @@
         }
         
         if(empty($Username)){
-            array_push($error,"ต้องใส่ชื่อผู้ใช้");
+            array_push($errors,"ต้องใส่ชื่อผู้ใช้");
         }
         if(empty($Password)){
-            array_push($error,"ต้องใส่รหัสผ่าน");
+            array_push($errors,"ต้องใส่รหัสผ่าน");
         }
 
-        if(count($error) == 0){
+        if(count($errors) == 0){
             $Password = md5($Password1);
             $query = "SELECT * FROM tb_regis WHERE Username ='$Username' and Password ='$Password'";
             $result = mysqli_query($conn, $query);
@@ -26,7 +26,7 @@
                 $_SESSION['success'] = "เข้าสู่ระบบสำเร็จ";
                 header("location: index.php");
             }else{
-                array_push($error,"ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง");
+                array_push($errors,"ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง");
                 $_SESSION['error'] = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
                 header("location: loginuser.php");
             }

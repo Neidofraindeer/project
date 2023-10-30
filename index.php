@@ -52,7 +52,7 @@ if(!isset($_SESSION['Username'])){
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="index.html">หน้าหลัก</a></li>
+			                    <li class=" scroll active"><a href="index.php">หน้าหลัก</a></li>
 			                    <li class="scroll"><a href="index.php">แพ็กเกจทัวร์</a></li>
 			                    <li class="scroll"><a href="picture.html">รูปภาพ</a></li>
 			                    <li class="scroll"><a href="contact.html">ติดต่อเรา</a></li>
