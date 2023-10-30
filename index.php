@@ -1,15 +1,6 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['Username'])){
-  $_SESSION['msg'] = "คุณต้องเข้าสู่ระบบก่อน";
-  header('location: loginuser.php');
-}
-if(isset($_GET['logout'])){
-	session_destroy();
-	unset($_SESSION['Username']);
-	header('location: loginuser.php');
-	}
 ?>
 
 <!doctype html>
@@ -43,25 +34,7 @@ if(isset($_GET['logout'])){
 			<div class="header-area">
 				<!-- Start Navigation -->
 			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
-			        <div class="container">
-					<?php if (isset($_SESSION['success'])): ?>
-    					<div class="success">
-      					<h3>
-        					<?php
-          						echo $_SESSION['success'];
-          						unset($_SESSION['success']);
-         					?>
-      					</h3>
-    				</div>
-    				<?php endif ?>
-
-					<?php if (isset($_SESSION['success'])):?>
-						<p>Welcome <storng><?php echo $_SESSION['Username']; ?></strong></p>
-						<p><a href="index.php?logout='1'" style="color: red;">logout</p>
-						<?php endif ?>
 						
-
 			            <!-- Start Header Navigation -->
 			            <div class="navbar-header">
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">

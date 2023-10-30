@@ -315,7 +315,7 @@
 										<div class="wrapper-special-tours">
 
 																			<div class="inner-special-tours">
-									<a href="main13.html">
+									<a href="main13.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p4.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -325,7 +325,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main13.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
+										<a href="main13.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">
