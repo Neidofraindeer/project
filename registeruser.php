@@ -157,7 +157,7 @@ button:hover {
            </div>
           <div class="form-group">
             <input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
-            <input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน">
+            <input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน"><br>
             <input type="password" id="Password" name="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
             <textarea name="Address"type="text" id="textarea"  placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="Zipcode" name="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
