@@ -27,8 +27,8 @@
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html" class="home">หน้าแรก</a></li>
-						<li><a href="index.html">แพ็กเกจ</a></li>
+						<li><a href="index.php" class="home">หน้าแรก</a></li>
+						<li><a href="index.php">แพ็กเกจ</a></li>
 						<li>แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</li>
 					</ul>
 				</div>
@@ -227,7 +227,7 @@
 									<div class="clear"></div>
 									<div class="booking">
 										<div class="">
-											<form  action="payment.html" id="tourBookingForm" name="tourBookingForm" method="POST">
+											<form  action="payment.php" id="tourBookingForm" name="tourBookingForm" method="POST">
 		                                    <input type="hidden" id="tourid" name="tourid" value="94">
 		                                    <input type="hidden" id="myaction" name="myaction" value="">
 

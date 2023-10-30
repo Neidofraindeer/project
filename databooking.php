@@ -55,6 +55,7 @@
                 ?>
             </tbody>
         </table>
+        <a class='btn btn-danger' href='loginadmin.php'>ออกจากระบบ</a>
     </div>
 </body>
 
