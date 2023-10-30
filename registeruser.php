@@ -134,15 +134,15 @@ button:hover {
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
         <div class="form-group">
-            *<input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username">
+            <input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username">
           <div class="bio">
             <input type="text" placeholder=" ชื่อ"id="Firstname"name="Firstname">
             <input type="text" placeholder="นามสกุล"id="Lastname"name="Lastname">
            </div>
           <div class="form-group">
-            *<input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
-            *<input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน">
-            *<input type="password" id="Password" name="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
+            <input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
+            <input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน">
+            <input type="password" id="Password" name="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
             <textarea name="Address"type="text" id="textarea"  placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="Zipcode" name="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="Tel" name="Tel" placeholder=" เบอร์"><br>
