@@ -1,23 +1,33 @@
 <?php
-        include 'conn.php';
         session_start();
+        include ('conn.php');
+        
+        $error = array();
 
-        $Username=$_POST['Username'];
-        $Password=$_POST['Password'];
-
-        $Password=hash('sha512',$Password);
-
-        $sql="SELECT * FROM tb_regis WHERE Username ='$Username' and Password ='$Password'";
-        $result= mysqli_query($conn,$sql);
-        $row =mysqli_fetch_array($result);
-
-        if(isset($_SESSION["Username"],$_SESSION["Password"]=$row['Password'])){
-            $_SESSION["Username"]=$row['Username'];
-            $_SESSION["Password"]=$row['Password'];
-            $show=header("refresh: 1; url=http://localhost/project/index.php");
-        }else{
-            $_SESSION["Error"] = "<p> Your username or password is invaild </p>";
-            $show=header("refresh: 1; url=http://localhost/project/loginuser.php");
+        if(isset($_POST['login_user'])){
+            $Username= mysqli_real_escape_string($conn,$_POST['Username']);
+            $Password= mysqli_real_escape_string($conn,$_POST['Password']);
         }
-        echo $show;
-        ?>
+        
+        if(empty($Username)){
+            array_push($error,"ต้องใส่ชื่อผู้ใช้");
+        }
+        if(empty($Password)){
+            array_push($error,"ต้องใส่รหัสผ่าน");
+        }
+
+        if(count($error) == 0){
+            $Password = md5($Password1);
+            $query = "SELECT * FROM tb_regis WHERE Username ='$Username' and Password ='$Password'";
+            $result = mysqli_query($conn, $query);
+            
+            if(mysqli_num_rows($result) == 1){
+                $_SESSION['Username'] = $Username;
+                $_SESSION['success'] = "เข้าสู่ระบบสำเร็จ";
+                header("location: index.php");
+            }else{
+                array_push($error,"ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง");
+                $_SESSION['error'] = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
+                header("location: loginuser.php");
+            }
+        }

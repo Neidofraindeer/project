@@ -1,6 +1,7 @@
 <?php
         session_start();
-        include('conn.php')
+        include('conn.php');
+
         $error = array();
         if(isset($_POST['reg_user'])){
             $Username= mysqli_real_escape_string($conn,$_POST['Username']);
@@ -52,6 +53,12 @@
             $_SESSION['Username']= $Username;
             $_SESSION['success']= "เข้าสู่ระบบ";
             header('location: index.php');
+        }else{
+            array_push($error,"ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว");
+            $_SESSION['error'] = "ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว";
+            header("location: registeruser.php");
         }
 
-    }           
+
+    } 
+              

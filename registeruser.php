@@ -1,3 +1,8 @@
+<?php
+  session_start();
+  include('conn.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,6 +119,17 @@ button:hover {
 <body>
 
 <form id="form1" name="form1"method="post" action="reg_success.php">  
+  <?php include('error.php')?>
+  <?php if (isset($_SESSION['error'])): ?>
+    <div class="error">
+      <h3>
+        <?php
+          echo $_SESSION['error'];
+          unset($_SESSION['error']);
+          ?>
+      </h3>
+    </div>
+    <?php endif ?>
         <div class="head"> 
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
