@@ -74,13 +74,13 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main1.html" class="travel_tour-LoopProduct-link">
+											<a href="main1.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/Similan.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main1.html" rel="bookmark">แพ็กเกจ สิมิลัน 3 วัน 2 คืน</a>
+												<a href="main1.php" rel="bookmark">แพ็กเกจ สิมิลัน 3 วัน 2 คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 1 แพ็กเกจ</div>
@@ -95,7 +95,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main1.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main1.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -105,7 +105,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main2.html" class="travel_tour-LoopProduct-link">
+											<a href="main2.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/krabi.jpg" alt="" title="">
 											</a>
 										</div>
