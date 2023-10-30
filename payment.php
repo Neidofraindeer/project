@@ -25,8 +25,8 @@
                     <div class="banner-wrapper container article_heading">
                         <div class="breadcrumbs-wrapper">
                             <ul class="phys-breadcrumb">
-                                <li><a href="index.html" class="home">หน้าแรก</a></li>
-                                <li><a href="index.html">แพ็กเกจ</a></li>
+                                <li><a href="index.php" class="home">หน้าแรก</a></li>
+                                <li><a href="index.php">แพ็กเกจ</a></li>
                                 <li>ชำระเงิน</li>
                             </ul>
                         </div>
@@ -38,7 +38,7 @@
 						<div class="entry-content">
 							<div class="travel_tour">
 								<div id="completed"></div>
-								<form name="myForm" id="myForm" method="POST" class="checkout travel_tour-checkout" action="#">
+								<form name="myForm" id="myForm" method="POST" class="checkout travel_tour-checkout" action="databooking.php">
 								<input type="hidden" id="myaction" name="myaction" value="">
 								<input type="hidden" id="tourid" name="tourid" value="33">
 	                            <input type="hidden" id="input_date" name="input_date" value="03/11/2023">
@@ -55,31 +55,31 @@
 															<label for="billing_country" class="">ชื่อแพ็กเกจ
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
-														<select id="input_prefix" name="input_prefix" class="country_to_state country_select" style="margin-bottom: 0px;" required="">
+														<select id="input_prefix" name="Name_pck" class="country_to_state country_select" style="margin-bottom: 0px;" required="">
 						                                        <option value=""selected="">แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</option>
 					                                    </select>
 														</p>
 														<p class="form-row form-row form-row-first validate-required" id="billing_first_name_field">
-															<label for="billing_first_name" class="">ชื่อ
+															<label for="billing_first_name" name="Firstname"class="">ชื่อ
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
                                                             <input type="text" class="input-text" id="input_fname" name="input_fname" value="" required="">
 														</p>
 														<p class="form-row form-row form-row-last validate-required" id="billing_last_name_field">
-															<label for="billing_last_name" class="">นามสกุล
+															<label for="billing_last_name" name="Lastname"class="">นามสกุล
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
                                                             <input type="text" class="input-text" id="input_lname" name="input_lname" value="" required="">
 														</p>
 														<div class="clear"></div>
 														<p class="form-row form-row form-row-first validate-required validate-email" id="billing_email_field">
-															<label for="billing_email" class="">อีเมล
+															<label for="billing_email" name="Email" class="">อีเมล
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
                                                             <input type="email" class="input-text" id="input_email" name="input_email" value="" required="">
 														</p>
 														<p class="form-row form-row form-row-last validate-required validate-phone" id="billing_phone_field">
-															<label for="billing_phone" class="">เบอร์ติดต่อ
+															<label for="billing_phone" name="Tel" class="">เบอร์ติดต่อ
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
                                                             <input type="tel" class="input-text" id="input_phone" name="input_phone" value="" required="">
@@ -87,7 +87,7 @@
 														<div class="clear"></div>
 
 														<p class="form-row form-row notes" id="order_comments_field">
-															<label for="order_comments" class="">หมายเหตุ
+															<label for="order_comments" name="Comment"class="">หมายเหตุ
                                                             </label>
                                                             <textarea class="input-text " id="input_remark" name="input_remark" rows="2" cols="5" style="margin-bottom: 0px;"></textarea>
 														</p>
@@ -215,7 +215,7 @@
                                                                             <img width="430" height="305" src="assets/images/QR.jpg">
                                                                         </li><br>
                                                                         <p>
-                                                                            <input type="file" name="image" id="image">
+                                                                            <input type="file" name="File_pay" id="image">
                                                                         </p> <br>
                                                                         </ul>
                                                                         <div class="form-row place-order">
