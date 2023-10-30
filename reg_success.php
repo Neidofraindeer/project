@@ -18,16 +18,16 @@
 
 
         if(empty($Username)){
-            array_push($error,"ต้องใส่ชื่อผู้ใช้")
+            array_push($error,"ต้องใส่ชื่อผู้ใช้");
         }
         if(empty($Email)){
-            array_push($error,"ต้องใส่อีเมล์")
+            array_push($error,"ต้องใส่อีเมล์");
         }
         if(empty($Password1)){
-            array_push($error,"ต้องใส่รหัสผ่าน")
+            array_push($error,"ต้องใส่รหัสผ่าน");
         }
         if(empty($Password1 != $Password2)){
-            array_push($error,"รหัสไม่ถูกต้อง")
+            array_push($error,"รหัสไม่ถูกต้อง");
         }
         
         $user_check_query = "SELECT * FROM tb_regis WHERE Username = '$Username' OR Email = '$Email'";
@@ -36,10 +36,10 @@
 
         if($result){
             if($result['Username'] === $Username){
-                array_push($error,"ชื่อผู้ใช้นี่มีอยู่แล้ว")
+                array_push($error,"ชื่อผู้ใช้นี่มีอยู่แล้ว");
             }
             if($result['Email'] === $Email){
-                        array_push($error,"อีเมล์นี่มีอยู่แล้ว")
+                        array_push($error,"อีเมล์นี่มีอยู่แล้ว");
             }
         }
 
