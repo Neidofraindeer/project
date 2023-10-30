@@ -14,9 +14,6 @@
             $Zipcode= mysqli_real_escape_string($conn,$_POST['Zipcode']);
             $Tel= mysqli_real_escape_string($conn,$_POST['Tel']);
             
-       
-
-
         if(empty($Username)){
             array_push($error,"ต้องใส่ชื่อผู้ใช้");
         }
