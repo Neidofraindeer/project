@@ -130,7 +130,9 @@ button:hover {
             <input type="text" id="Tel" name="Tel" placeholder=" เบอร์"><br>
           </div>
         </div>
-        <input type="submit" class="btn btn-success" value="สมัครสมาชิก">
+        <input type="submit" class="btn btn-success" value="สมัครสมาชิก"><br>
+        <a class="btn btn-success" href='loginuser.php'>เข้าสู่ระบบ</a><br><br>
+        <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งานระบบ</a>
 </form> 
 </body>
 </html>

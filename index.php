@@ -53,7 +53,7 @@ session_start();
 			                    <li class="scroll"><a href="index.php">แพ็กเกจทัวร์</a></li>
 			                    <li class="scroll"><a href="picture.html">รูปภาพ</a></li>
 			                    <li class="scroll"><a href="contact.html">ติดต่อเรา</a></li>
-								<li class="scroll"><a href="loginuser.html">ออกจากระบบ</a></li>
+								<li class="scroll"><a href="loginuser.php">ออกจากระบบ</a></li>
 								
 								
 			                </ul><!--/.nav -->
