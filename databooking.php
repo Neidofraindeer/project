@@ -1,6 +1,6 @@
 <?php
     require 'conn.php';
-    $sql = "SELECT * FROM tb_booking";
+    $sql = "SELECT * FROM tb_order";
     $result = $conn->query($sql);
     if(!$result){
         die("Error : ". $conn->$conn_error);
@@ -13,21 +13,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>ข้อมูลแพ็คเกจ</title>
+    <title>ข้อมูลการจองแพ็คเกจ</title>
 </head>
 <body>
-    <div class="container">
-        <h1>ข้อมูลแพ็คเกจ</h1><br>
+    <div class="container"><br>
+    <a class="btn btn-success" href='datapackage.php'>ข้อมูลแพ็คเกจ</a>
+    <a class="btn btn-success" href='#databooking'>ข้อมูลการจองแพ็คเกจ</a><br><br>
+        <h1>ข้อมูลการจองแพ็คเกจ</h1><br>
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">รหัส</th>
+                    <th scope="col">รหัสการจอง</th>
+                    <th scope="col-4">วันที่ต้องการจอง</th>
                     <th scope="col-4">ชื่อแพ็คเกจ</th>
-                    <th scope="col-4">รูปแพ็คเกจ</th>
+                    <th scope="col-4">ชื่อ</th>
+                    <th scope="col-4">นามสกุล</th>
+                    <th scope="col-4">อีเมล์</th>
+                    <th scope="col-4">เบอร์ติดต่อ</th>
                     <th scope="col-4">ราคา</th>
-                    <th scope="col-4">รายละเอียด</th>
-                    <th scope="col-4">Edit</th>
-                    <th scope="col-4">Delete</th>
+                    <th scope="col-4">หลักฐานการชำระเงิน</th>
+                    <th scope="col-4">วันที่ชำระเงิน</th>
+                    <th scope="col-4">หมายเหตุ</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,9 +45,7 @@
                             "<td>".$row["Name_pck"]."</td>".
                             "<td>".$row["image"]."</td>".
                             "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Detail_pck"]."</td>".
-                            "<td>"."<a class='btn btn-warning' href='editpackage.php? Id_pck=".$row["Id_pck"]."'>แก้ไข</a>"."</td>".
-                            "<td>"."<a class='btn btn-danger' href='deletepackage.php? Id_pck=".$row["Id_pck"]. "' >ลบ</a>"."</td>";
+                            "<td>".$row["Detail_pck"]."</td>";
                             echo "</tr>";    
                         }
                     }else {
@@ -51,7 +55,6 @@
                 ?>
             </tbody>
         </table>
-        <a class="btn btn-success" href='insertpackage.php'>เพิ่มข้อมูลแพ็คเกจ</a>
     </div>
 </body>
 

@@ -16,7 +16,9 @@
     <title>ข้อมูลแพ็คเกจ</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container"><br>
+    <a class="btn btn-success" href='#datapackage'>ข้อมูลแพ็คเกจ</a>
+    <a class="btn btn-success" href='databooking.php'>ข้อมูลการจองแพ็คเกจ</a><br><br>
         <h1>ข้อมูลแพ็คเกจ</h1><br>
         <table class="table">
             <thead>
@@ -26,8 +28,8 @@
                     <th scope="col-4">รูปแพ็คเกจ</th>
                     <th scope="col-4">ราคา</th>
                     <th scope="col-4">รายละเอียด</th>
-                    <th scope="col-4">Edit</th>
-                    <th scope="col-4">Delete</th>
+                    <th scope="col-4">แก้ไข</th>
+                    <th scope="col-4">ลบ</th>
                 </tr>
             </thead>
             <tbody>
