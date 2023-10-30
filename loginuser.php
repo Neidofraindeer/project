@@ -1,6 +1,6 @@
 <?php
 session_start();
-include ('conn.php');         
+include 'conn.php';         
 ?>
 
 <!DOCTYPE html>
@@ -111,7 +111,7 @@ button:hover {
     </style>
 </head>
 <body>
-<form id="form1" name="form1" method="post" action="login_success.php">
+<form method="post" action="login_success.php">
   <?php if (isset($_SESSION['error'])): ?>
     <div class="error">
       <h3>

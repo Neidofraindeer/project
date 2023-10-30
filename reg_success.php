@@ -1,6 +1,6 @@
 <?php
         session_start();
-        include('conn.php');
+        include 'conn.php';
 
         $errors = array();
         if(isset($_POST['reg_user'])){
@@ -51,7 +51,7 @@
                 array_push($errors,"ชื่อผู้ใช้นี่มีอยู่แล้ว");
             }
             if($result['Email'] === $Email){
-                        array_push($errors,"อีเมล์นี่มีอยู่แล้ว");
+                array_push($errors,"อีเมล์นี่มีอยู่แล้ว");
             }
         }
 
@@ -60,7 +60,7 @@
 
             $sql="INSERT INTO tb_regis (Username,Firstname,Lastname,Email,Password,Address,Zipcode,Tel) 
             VALUES ('$Username','$Firstname','$Lastname','$Email','$Password','$Address','$Zipcode','$Tel')";
-            mysqli_query($conn,$sql);
+            $result = mysqli_query($conn,$sql);
 
             $_SESSION['Username']= $Username;
             $_SESSION['success']= "เข้าสู่ระบบ";

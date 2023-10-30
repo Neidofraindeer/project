@@ -1,8 +1,15 @@
 <?php
+session_start();
+
 if(!isset($_SESSION['Username'])){
   $_SESSION['msg'] = "คุณต้องเข้าสู่ระบบก่อน";
   header('location: loginuser.php');
 }
+if(isset($_GET['logout'])){
+	session_destroy();
+	unset($_SESSION['Username']);
+	header('location: loginuser.php');
+	}
 ?>
 
 <!doctype html>
@@ -38,6 +45,22 @@ if(!isset($_SESSION['Username'])){
 			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
 			        <div class="container">
+					<?php if (isset($_SESSION['success'])): ?>
+    					<div class="success">
+      					<h3>
+        					<?php
+          						echo $_SESSION['success'];
+          						unset($_SESSION['success']);
+         					?>
+      					</h3>
+    				</div>
+    				<?php endif ?>
+
+					<?php if (isset($_SESSION['success'])):?>
+						<p>Welcome <storng><?php echo $_SESSION['Username']; ?></strong></p>
+						<p><a href="index.php?logout='1'" style="color: red;">logout</p>
+						<?php endif ?>
+						
 
 			            <!-- Start Header Navigation -->
 			            <div class="navbar-header">
@@ -49,6 +72,7 @@ if(!isset($_SESSION['Username'])){
 			            </div><!--/.navbar-header-->
 			            <!-- End Header Navigation -->
 
+
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
@@ -56,7 +80,7 @@ if(!isset($_SESSION['Username'])){
 			                    <li class="scroll"><a href="index.php">แพ็กเกจทัวร์</a></li>
 			                    <li class="scroll"><a href="picture.html">รูปภาพ</a></li>
 			                    <li class="scroll"><a href="contact.html">ติดต่อเรา</a></li>
-								<li class="scroll"><a href="loginuser.php">ออกจากระบบ</a></li>
+								
 								
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
