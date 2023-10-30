@@ -17,16 +17,16 @@
        
 
 
-        if(empty( $Username)){
+        if(empty($Username)){
             array_push($error,"ต้องใส่ชื่อผู้ใช้")
         }
-        if(empty( $Email)){
+        if(empty($Email)){
             array_push($error,"ต้องใส่อีเมล์")
         }
-        if(empty( $Password1)){
+        if(empty($Password1)){
             array_push($error,"ต้องใส่รหัสผ่าน")
         }
-        if(empty( $Password1 != $Password2)){
+        if(empty($Password1 != $Password2)){
             array_push($error,"รหัสไม่ถูกต้อง")
         }
         
@@ -61,4 +61,5 @@
 
 
     } 
+?>
               

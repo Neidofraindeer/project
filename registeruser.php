@@ -150,7 +150,7 @@ button:hover {
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
         <div class="form-group">
-            <input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username">
+            <input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username" required>
           <div class="bio">
             <input type="text" placeholder=" ชื่อ"id="Firstname"name="Firstname">
             <input type="text" placeholder="นามสกุล"id="Lastname"name="Lastname">
