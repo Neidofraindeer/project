@@ -20,7 +20,6 @@
     </head>
     <body class="single-product travel_tour-page travel_tour">
         <div class="wrapper-container">
-        
             <div class="site wrapper-content">
                 <div class="top_site_main" style="background-image:url(assets/images/bg.jpg);">
                     <div class="banner-wrapper container article_heading">
@@ -31,9 +30,6 @@
                                 <li>ชำระเงิน</li>
                             </ul>
                         </div>
-                        
-        
-            
                         <h2 class="heading_primary">ชำระเงิน</h2></div>
                 </div>
                 <section class="content-area single-woo-tour">
@@ -54,15 +50,13 @@
 												<div class="col-1">
 													<div class="travel_tour-billing-fields">
 														<h3>ข้อมูลลูกค้า</h3>
+
 														<p class="form-row form-row form-row-wide address-field update_totals_on_change validate-required travel_tour-validated" id="billing_country_field">
-															<label for="billing_country" class="">คำนำหน้า
+															<label for="billing_country" class="">ชื่อแพ็กเกจ
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
 														<select id="input_prefix" name="input_prefix" class="country_to_state country_select" style="margin-bottom: 0px;" required="">
-						                                        <option value="" selected="">Please Select</option>
-						                                        <option value="1">นาย</option>
-						                                        <option value="2">นางสาว</option>
-						                                        <option value="3">นาง</option>
+						                                        <option value=""selected="">แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</option>
 					                                    </select>
 														</p>
 														<p class="form-row form-row form-row-first validate-required" id="billing_first_name_field">
@@ -107,99 +101,165 @@
 													</div>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-5 columns">
-											<div class="order-wrapper">
-												<h3 id="order_review_heading">ข้อมูลทัวร์ของคุณ</h3>
-												<div id="order_review" class="travel_tour-checkout-review-order">
-													<table class="shop_table travel_tour-checkout-review-order-table">
-														<thead>
-														<tr>
-															<th class="product-name">แพ็กเกจทัวร์</th>
-															<th class="product-total"></th>
-														</tr>
-														</thead>
-														<tbody>
-														<tr class="cart_item">
-															<td class="product-name" colspan="2" style="padding-left: 10px;"><!--ชื่อหัวข้อแพ็คเกจมันเชื่อมมันจากหน้าเว็บแพ็คเกจที่เราเลือกจอง-->
-															</td>
-														</tr>
-														</tbody>
-														<tfoot>
+										</div>      
+                                            <div class="summary entry-summary description_single">
+                                             <div class="affix-sidebar">
+                                                <div class="entry-content-tour">
+                                                    <div id="showprice">
+                                                    <p class="price" align="center" style="padding-top: 20px;">
+                                                        <span class="text" style="font-size: 20px;">
+                                                        ผู้ใหญ่ <strong>1,495</strong><small> บาทต่อคน</small>
+                                                        </span>
+                                                    </p>
+                                                    <p class="price" align="center">
+                                                        <span class="text" style="font-size: 20px;">
+                                                        เด็ก <strong>1,295</strong><small> บาทต่อคน</small></span>
+                                                    </p>
+                                                    </div>
+                                                    <p class="price" align="center">
+                                                        <span class="text" style="font-size: 14px;">
+                                                        <small>*ฟรีสำหรับเด็กอายุต่ำกว่า 4 ปี</small>
+                                                        </span>
+                                                    </p>
+                
+                                                    <div style="margin-bottom: 30px;background-color: #fff;"></div>
+                
+                                                    <p class="price" align="center">
+                                                        <span class="text" style="font-size: 16px;"><b>จองทัวร์ของคุณ</b></span>
+                                                    </p>
+                                                    <div class="clear"></div>
+                                                    <div class="booking">
+                                                        <div class="">
+                                                            <form  action="payment.html" id="tourBookingForm" name="tourBookingForm" method="POST">
+                                                            <input type="hidden" id="tourid" name="tourid" value="86">
+                                                            <input type="hidden" id="myaction" name="myaction" value="">
+                
+                                                            <table id="tickets" class="table">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>ตั๋ว</th>
+                
+                                                                            <th>จำนวน</th>
+                                                                            <th class="text-center"><span class="subtotal">ราคา</span>
+                
+                                                                            </th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tfoot>
+                                                                        <tr class="total_row">
+                                                                            <td colspan="2"><strong>ราคารวม</strong>
+                                                                            </td>
+                                                                            <td class="text-center">
+                                                                                <input name="total" id="total" value="" readonly="">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tfoot>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td><strong>ผู้ใหญ่</strong><a href="#" class="tooltip-1" data-placement="top" title="" data-original-title="16 - 65 years old"><sup class="icon-info-4"></sup></a>
+                                                                                <span class="price">1990</span>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="styled-select">
+                                                                                    <select class="form-control" name="input_adult" id="input_adult">
+                                                                                                                                                                <option value="2">2</option>
+                                                                                                                                                                <option value="3">3</option>
+                                                                                                                                                                <option value="4">4</option>
+                                                                                                                                                                <option value="5">5</option>
+                                                                                                                                                                <option value="6">6</option>
+                                                                                                                                                                <option value="7">7</option>
+                                                                                                                                                                <option value="8">8</option>
+                                                                                                                                                                <option value="9">9</option>
+                                                                                                                                                                <option value="10">10</option>
+                                                                                                                                                            </select>
+                                                                                </div>
+                                                                            </td>
+                
+                                                                            <td class="text-center"><span class="subtotal">$0</span>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td><strong>เด็ก (4-10)</strong><a href="#" class="tooltip-1" data-placement="top" title="" data-original-title="9 - 15 years old"><sup class="icon-info-4"></sup></a><span class="price">1290</span>
+                                                                            </td>
+                                                                            <td>
+                                                                                <div class="styled-select">
+                                                                                    <select class="form-control" name="input_child" id="input_child">
+                                                                                        <option value="0">0</option>
+                                                                                        <option value="1">1</option>
+                                                                                        <option value="2">2</option>
+                                                                                        <option value="3">3</option>
+                                                                                        <option value="4">4</option>
+                                                                                        <option value="5">5</option>
+                                                                                        <option value="6">6</option>
+                                                                                        <option value="7">7</option>
+                                                                                        <option value="8">8</option>
+                                                                                        <option value="9">9</option>
+                                                                                        <option value="10">10</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </td>
+                                                                            <td class="text-center"><span class="subtotal">$0</span>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>                                                 
+                                                                <div id="payment" class="travel_tour-checkout-payment">
+                                                                    <ul class="wc_payment_methods payment_methods methods">
+                                                                        <li class="wc_payment_method payment_method_bacs">								
+                                                                            <input id="input_payment3" type="radio" class="input-radio" name="input_payment" value="1" onclick="paymentoption(1);">
+                                                                            <label for="payment_method_bacs">
+                                                                                <b>ชำระด้วยการโอนเงิน</b>
+                                                                            </label>
+                                                                            <p style="padding-left: 25px;">คุณสามารถแนบสลิป เพื่อแจ้งการโอนเงินได้ที่นี่</p>
+                                                                            <img width="430" height="305" src="assets/images/QR.jpg">
+                                                                        </li><br>
+                                                                        <p>
+                                                                            <input type="file" name="image" id="image">
+                                                                        </p> <br>
+                                                                        </ul>
+                                                                        <div class="form-row place-order">
+                                                                            <input type="button" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="ชำระเงิน" onclick="PaymentBooking()">
+                                                                        </div>
+                                                                        <div style="padding-top: 20px;" align="center">
+                                                                        </div>
+                                                                    </div>
+                
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
 
-														<tr class="cart-subtotal">
-															<th>วันเดินทาง </th>
-															<td align="right" style="padding-right:5px;">
-																<span class="travel_tour-Price-amount amount"></span> <!--เลือกวันเดินทาง-->
-															</td>
-														</tr>
-
-														<tr class="cart-subtotal">
-															<th>ผู้ใหญ่</th>
-															<td align="right" style="padding-right:5px;">
-																<span class="travel_tour-Price-amount amount"></span> <!--จำนวนผู้ใหญ่ที่มา-->
-															</td>
-														</tr>
-														<tr class="cart-subtotal">
-															<th>เด็ก</th>
-															<td align="right" style="padding-right:5px;">
-																<span class="travel_tour-Price-amount amount"></span> <!--จำนวนผู้ใหญ่ที่มา-->
-															</td>
-														</tr>
-
-														
-														<tr class="order-total">
-															<th>ค่าธรรมเนียม/ภาษี</th>
-															<td align="right" style="padding-right:5px;">
-																<strong><span class="travel_tour-Price-amount amount"></span></strong> <!--ค่าธรรมเนียม-->
-															</td>
-														</tr>
-
-														<tr class="order-total">
-															<th><b>ราคารวม</b></th>
-															<td align="right" style="padding-right:5px;">
-																<strong><span class="travel_tour-Price-amount amount"></span></strong> <!--ราคารวม-->
-															</td>
-														</tr>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='assets/js/vendors.js'></script>
+<script type='text/javascript' src='assets/js/jquery.swipebox.min.js'></script>
+<script type='text/javascript' src='assets/js/theme.js'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCaQjbVDR1vRh2iS_V3jLBXRrkQxmoxycQ'></script>
+<script type='text/javascript' src='assets/js/gmap.js'></script>
 
 
-														</tfoot>
-													</table>
+		<script type="text/javascript" src="datepicker/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="datepicker/js/helper.js"></script>
+        <script type="text/javascript" src="datepicker/js/template.js"></script>
+        <script src="js/script.js"></script>
+        <script type="text/javascript">
+        	        jQuery("#input_date").datepicker({
+	                format: "dd/mm/yyyy",
+	                autoclose: true,
+	                startDate: new Date(),
+	                startDate: '+1d'
 
-													<div id="payment" class="travel_tour-checkout-payment">
-														<ul class="wc_payment_methods payment_methods methods">
-															<li class="wc_payment_method payment_method_bacs">								
-																<input id="input_payment3" type="radio" class="input-radio" name="input_payment" value="1" onclick="paymentoption(1);">
-																<label for="payment_method_bacs">
-																	<b>ชำระด้วยการโอนเงิน</b>
-                                                                </label>
-                                                                <p style="padding-left: 25px;">คุณสามารถแนบสลิป เพื่อแจ้งการโอนเงินได้ที่นี่</p>
-                                                                <img width="430" height="305" src="assets/images/QR.jpg">
-															</li><br>
-                                                            <p>
-                                                                <input type="file" name="image" id="image">
-                                                            </p> <br>
-																																													<!-- <li class="wc_payment_method payment_method_bacs">
-																<input id="input_payment2" type="radio" class="input-radio" name="input_payment" value="2">
-																<label for="payment_method_bacs">
-																	<b>มัดจำ 50 % </b></label><p style="padding-left: 25px;">เราจำเป็นต้องเก็บเงินมัดจำ 50 % เพื่อทำการจองที่นั่งให้กับลูกค้า ส่วนที่เหลือจ่ายก่อนเดินทาง 1 วัน</p>
-															</li> -->
-                            								</ul>
-													
-														<div class="form-row place-order">
-															<input type="button" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="ชำระเงิน" onclick="PaymentBooking()">
-														</div>
-														<div style="padding-top: 20px;" align="center">
-														</div>
-													</div>
+	        });
+                $('#input_date').on('changeDate', function() {
+            //$('#input_pickupdate').datepicker('getFormattedDate'),
+                Loadprice();Showprice();
+        });
 
-												</div>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-                </body>               
+
+        </script>
+</body>
 </html>
