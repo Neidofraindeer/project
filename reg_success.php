@@ -18,7 +18,7 @@
         $result= mysqli_query($conn,$sql);
         
         if($result) {
-            echo "<script> alert('สมัครสมาชิกสำเร็จจจจจจจ'); </script>";
+            echo "<script> alert('สมัครสมาชิกสำเร็จ'); </script>";
             echo "<script> window.location='loginuser.php'; </script>";
             
         } else {
