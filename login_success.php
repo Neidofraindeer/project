@@ -1,33 +1,21 @@
-<?php
-        session_start();
-        include ('conn.php');
-        
-        $errors = array();
-
-        if(isset($_POST['login_user'])){
-            $Username= mysqli_real_escape_string($conn,$_POST['Username']);
-            $Password= mysqli_real_escape_string($conn,$_POST['Password']);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        require 'conn.php';
+        $sql_update="INSERT INTO tb_loginuser(Username,Password) VALUES ('$_POST[Username]','$_POST[Password]')";
+        $result= $conn->query($sql_update);
+        if(!$result) {
+        die("Error God Damn it : ". $conn->error);
+        } else {
+        echo "Success <br>";
+        header("refresh: 1; url=http://localhost/project/index.html");
         }
-        
-        if(empty($Username)){
-            array_push($errors,"ต้องใส่ชื่อผู้ใช้");
-        }
-        if(empty($Password)){
-            array_push($errors,"ต้องใส่รหัสผ่าน");
-        }
-
-        if(count($errors) == 0){
-            $Password = md5($Password1);
-            $query = "SELECT * FROM tb_regis WHERE Username ='$Username' and Password ='$Password'";
-            $result = mysqli_query($conn, $query);
-            
-            if(mysqli_num_rows($result) == 1){
-                $_SESSION['Username'] = $Username;
-                $_SESSION['success'] = "เข้าสู่ระบบสำเร็จ";
-                header("location: index.php");
-            }else{
-                array_push($errors,"ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง");
-                $_SESSION['error'] = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
-                header("location: loginuser.php");
-            }
-        }
+    ?>
+</body>
+</html>

@@ -1,77 +1,28 @@
-<?php
-        session_start();
-        include 'conn.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="loginuser.php">
+    <?php
+        require 'conn.php';
 
-        $errors = array();
-        if(isset($_POST['reg_user'])){
-            $Username= mysqli_real_escape_string($conn,$_POST['Username']);
-            $Firstname= mysqli_real_escape_string($conn,$_POST['Firstname']);
-            $Lastname= mysqli_real_escape_string($conn,$_POST['Lastname']);
-            $Email= mysqli_real_escape_string($conn,$_POST['Email']);
-            $Password1= mysqli_real_escape_string($conn,$_POST['Password1']);
-            $Password2= mysqli_real_escape_string($conn,$_POST['Password2']);
-            $Address= mysqli_real_escape_string($conn,$_POST['Address']);
-            $Zipcode= mysqli_real_escape_string($conn,$_POST['Zipcode']);
-            $Tel= mysqli_real_escape_string($conn,$_POST['Tel']);
-            
-        if(empty($Username)){
-            array_push($errors,"ต้องใส่ชื่อผู้ใช้");
+        $sql_update="INSERT INTO tb_regis(Username,Firstname,Lastname,Email,Password,Address,Zipcode,Tel) 
+        VALUES ('$_POST[Username]','$_POST[Firstname]','$_POST[Lastname]','$_POST[Email]','$_POST[Password]','$_POST[Address]','$_POST[Zipcode]','$_POST[Tel]')";
+        
+        $result= $conn->query($sql_update);
+        
+        if(!$result) {
+            die("Error God Damn it : ". $conn->error);
+        } else {
+        echo "Register Success <br>";
+        header("refresh: 1; url=http://localhost/project/loginuser.php");
         }
-        if(empty($Firstname)){
-            array_push($errors,"ต้องใส่ชื่อ");
-        }
-        if(empty($Lastname)){
-            array_push($errors,"ต้องใส่นามสกุล");
-        }
-        if(empty($Email)){
-            array_push($errors,"ต้องใส่อีเมล์");
-        }
-        if(empty($Password1)){
-            array_push($errors,"ต้องใส่รหัสผ่าน");
-        }
-        if(empty($Password1 != $Password2)){
-            array_push($errors,"รหัสไม่ถูกต้อง");
-        }
-        if(empty($Address)){
-            array_push($errors,"ต้องใส่ที่อยู่");
-        }
-        if(empty($Zipcode)){
-            array_push($errors,"ต้องใส่รหัสไปรษณีย์");
-        }
-        if(empty($Tel)){
-            array_push($errors,"ต้องใส่หมายเลขโทรศัพท์");
-        }
-
-        $user_check_query = "SELECT * FROM tb_regis WHERE Username = '$Username' OR Email = '$Email'";
-        $query = mysqli_query($conn,$user_check_query);
-        $result= mysqli_fetch_assoc($query);
-
-        if($result){
-            if($result['Username'] === $Username){
-                array_push($errors,"ชื่อผู้ใช้นี่มีอยู่แล้ว");
-            }
-            if($result['Email'] === $Email){
-                array_push($errors,"อีเมล์นี่มีอยู่แล้ว");
-            }
-        }
-
-        if(count($errors) == 0){
-            $Password = md5($Password1);
-
-            $sql="INSERT INTO tb_regis (Username,Firstname,Lastname,Email,Password,Address,Zipcode,Tel) 
-            VALUES ('$Username','$Firstname','$Lastname','$Email','$Password','$Address','$Zipcode','$Tel')";
-            $result = mysqli_query($conn,$sql);
-
-            $_SESSION['Username']= $Username;
-            $_SESSION['success']= "เข้าสู่ระบบ";
-            header('location: index.php');
-        }else{
-            array_push($errors,"ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว");
-            $_SESSION['error'] = "ชื่อผู้ใช้หรืออีเมล์นี่มีอยู่แล้ว";
-            header("location: registeruser.php");
-        }
-
-
-    } 
-?>
+        ?>
+        </form>
+</body>
+</html>
               

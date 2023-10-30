@@ -1,8 +1,3 @@
-<?php
-include 'conn.php';
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,8 +102,7 @@ session_start();
            <div class="bio">
              <input type="password" id="password" name="Password_admin" placeholder="รหัสผ่าน">
            </div>
-           <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br><br>
-           <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
+           <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
        </form>
 </body>
 </html>

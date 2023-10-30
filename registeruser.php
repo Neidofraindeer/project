@@ -1,8 +1,3 @@
-<?php
-  session_start();
-  include 'conn.php';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,40 +108,12 @@ button:hover {
     background-color: #01d00b;
     
 }
-.error{
-  width :92%;
-  margin: 0px auto;
-  padding:10px;
-  border: 1px solid #a94442;
-  color: #a94442;
-  background: #f2dede;
-  border-radius: 5px;
-  text-align: left;
-}   
-.success{
-  color: #3c763d;
-  background: #dff9d8;
-  border: 1px solid #3c763d;
-  margin-bottom: 20px;
-}
 
 </style>
 </head>
 <body>
-
-<form method="post" action="reg_success.php">  
-  <?php include('error.php')?>
-  <?php if (isset($_SESSION['error'])): ?>
-    <div class="error">
-      <h3>
-        <?php
-          echo $_SESSION['error'];
-          unset($_SESSION['error']);
-          ?>
-      </h3>
-    </div>
-    <?php endif ?>
-        <div class="head"> 
+<form id="form1" name="form1"method="post" action="reg_success.php">
+        <div class="head">
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
         <div class="form-group">
@@ -157,16 +124,13 @@ button:hover {
            </div>
           <div class="form-group">
             <input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
-            <input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน"><br>
-            <input type="password" id="Password" name="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
+            <input type="password" id="Password" name="Password" placeholder="รหัสผ่าน"><br>
             <textarea name="Address"type="text" id="textarea"  placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="Zipcode" name="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="Tel" name="Tel" placeholder=" เบอร์"><br>
           </div>
         </div>
-        <input type="submit" name="reg_user" class="btn btn-success" value="สมัครสมาชิก"><br>
-        <a class="btn btn-success" href='loginuser.php'>เข้าสู่ระบบ</a><br><br>
-        <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
+        <input type="submit" class="btn btn-success" value="สมัครสมาชิก">
 </form> 
 </body>
 </html>

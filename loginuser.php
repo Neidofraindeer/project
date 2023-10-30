@@ -1,8 +1,3 @@
-<?php
-session_start();
-include 'conn.php';         
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,38 +86,11 @@ button {
 button:hover {
   background-color: #ff3535;
   color: #ffffff;
-}
-.error{
-  width :92%;
-  margin: 0px auto;
-  padding:10px;
-  border: 1px solid #a94442;
-  color: #a94442;
-  background: #f2dede;
-  border-radius: 5px;
-  text-align: left;
-}   
-.success{
-  color: #3c763d;
-  background: #dff9d8;
-  border: 1px solid #3c763d;
-  margin-bottom: 20px;
-} 
+}      
     </style>
 </head>
 <body>
-<form method="post" action="login_success.php">
-  <?php if (isset($_SESSION['error'])): ?>
-    <div class="error">
-      <h3>
-        <?php
-          echo $_SESSION['error'];
-          unset($_SESSION['error']);
-          ?>
-      </h3>
-    </div>
-    <?php endif ?>
-    
+<form id="form1" name="form1" method="post" action="login_success.php">
         <div class="head">
           <h2>เข้าสู่ระบบผู้ใช้งาน</h2>
         </div>
@@ -132,10 +100,8 @@ button:hover {
         <div class="form-group">
           <input name="Username" type="text" id="Username"  placeholder="ชื่อผู้ใช้"><br>
           <input type="password" id="Password" name="Password" placeholder="รหัสผ่าน"><br>
-          </div>
-          <input type="submit" name="login_user" class="btn btn-success" value="เข้าสู่ระบบ"><br>
-          <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a><br><br>
-          <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
+          <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
+          <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a>
       </form>
 </body>
 </html>
