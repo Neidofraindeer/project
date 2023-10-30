@@ -11,15 +11,13 @@
         $result= mysqli_query($conn,$sql);
         $row =mysqli_fetch_array($result);
 
-        if($row > 0){
+        if(isset($_SESSION["Username"],$_SESSION["Password"]=$row['Password'])){
             $_SESSION["Username"]=$row['Username'];
             $_SESSION["Password"]=$row['Password'];
-            $_SESSION["Firstname"]=$row['Firstname'];
-            $_SESSION["Lastname"]=$row['Lastname'];
-            $show=header("location:index.php");
+            $show=header("refresh: 1; url=http://localhost/project/index.php");
         }else{
             $_SESSION["Error"] = "<p> Your username or password is invaild </p>";
-            $show=header("location:loginuser.php");
+            $show=header("refresh: 1; url=http://localhost/project/loginuser.php");
         }
         echo $show;
         ?>

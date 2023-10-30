@@ -1,3 +1,10 @@
+<?php
+if(!isset($_SESSION['Username'])){
+  $_SESSION['msg'] = "คุณต้องเข้าสู่ระบบก่อน";
+  header('location: loginuser.php');
+}
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 

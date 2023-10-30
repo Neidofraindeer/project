@@ -112,25 +112,32 @@ button:hover {
 </style>
 </head>
 <body>
-<form id="form1" name="form1"method="post" action="reg_success.php">
-        <div class="head">
+
+<form id="form1" name="form1"method="post" action="reg_success.php">  
+        <div class="head"> 
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
         <div class="form-group">
-            <input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username">
+            *<input type="text" placeholder="ชื่อผู้ใช้" id="Username" name="Username">
           <div class="bio">
             <input type="text" placeholder=" ชื่อ"id="Firstname"name="Firstname">
             <input type="text" placeholder="นามสกุล"id="Lastname"name="Lastname">
            </div>
           <div class="form-group">
-            <input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
-            <input type="password" id="Password" name="Password" placeholder="รหัสผ่าน"><br>
+            *<input type="email" id="Email" name="Email" placeholder="อีเมล์"><br>
+            *<input type="password" id="Password" name="Password1" placeholder="รหัสผ่าน">
+            *<input type="password" id="Password" name="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
             <textarea name="Address"type="text" id="textarea"  placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="Zipcode" name="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="Tel" name="Tel" placeholder=" เบอร์"><br>
           </div>
         </div>
-        <input type="submit" class="btn btn-success" value="สมัครสมาชิก">
+        <input type="submit" name="reg_user" class="btn btn-success" value="สมัครสมาชิก"><br>
+        <a class="btn btn-success" href='loginuser.php'>เข้าสู่ระบบ</a><br><br>
+        <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
+      
+         
+
 </form> 
 </body>
 </html>

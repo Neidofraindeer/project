@@ -106,13 +106,9 @@ session_start();
            <input type="text" id="username "name="Username_admin"  placeholder="ชื่อผู้ใช้">
            <div class="bio">
              <input type="password" id="password" name="Password_admin" placeholder="รหัสผ่าน">
-             <?php
-              if(isset($_SESSION["Error"])){
-                echo $_SESSION["Error"];
-              }
-            ?>
            </div>
-           <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
+           <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br><br>
+           <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
        </form>
 </body>
 </html>

@@ -1,6 +1,5 @@
 <?php
-include 'conn.php';
-session_start();
+session_start();         
 ?>
 
 <!DOCTYPE html>
@@ -105,13 +104,10 @@ button:hover {
         <div class="form-group">
           <input name="Username" type="text" id="Username"  placeholder="ชื่อผู้ใช้"><br>
           <input type="password" id="Password" name="Password" placeholder="รหัสผ่าน"><br>
-          <?php
-          if(isset($_SESSION["Error"])){
-            echo $_SESSION["Error"];
-          }
-          ?>
-          <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
-          <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a>
+          </div>
+          <input type="submit" name="login_user" class="btn btn-success" value="เข้าสู่ระบบ"><br>
+          <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a><br><br>
+          <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
       </form>
 </body>
 </html>
