@@ -202,10 +202,10 @@
                                                                             </td>
                                                                         </tr>
                                                                     </tbody>
-                                                                </table>                                                 
+                                                                </table>                                                
                                                                 <div id="payment" class="travel_tour-checkout-payment">
                                                                     <ul class="wc_payment_methods payment_methods methods">
-                                                                        <li class="wc_payment_method payment_method_bacs">								
+                                                                        <li class="wc_payment_method payment_method_bacs">
                                                                             <input id="input_payment3" type="radio" class="input-radio" name="input_payment" value="1" onclick="paymentoption(1);">
                                                                             <label for="payment_method_bacs">
                                                                                 <b>ชำระด้วยการโอนเงิน</b>
