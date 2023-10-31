@@ -12,19 +12,19 @@
     <form id="form1" name="form1" method="post" action="insertsuccess.php">
         <p>
             <label for="name">ชื่อแพ็คเกจ</label><br>
-            <input type="text" name="Name_pck" id="Name_pck">
+            <input type="text" name="Name_pck" id="Name_pck" required>
         </p>
         <p>
             <label for="address">รูป</label><br>
-            <input type="file" name="image" id="image">
+            <input type="file" name="image" id="image" required>
         </p>
         <p>
             <label for="telephone">ราคา</label><br>
-            <input type="text" name="Price_pck" id="Price_pck">
+            <input type="text" name="Price_pck" id="Price_pck" required>
         </p>
         <p>
             <label for="telephone">รายละเอียด</label><br>
-            <textarea type="text" name="Detail_pck" id="Detail_pck"></textarea>
+            <textarea type="text" name="Detail_pck" id="Detail_pck" required></textarea>
         </p>
         <input type="submit" class="btn btn-success" value="บันทึก">
         <a class="btn btn-success" href='datapackage.php'>กลับ</a>
