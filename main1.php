@@ -247,7 +247,7 @@
 															<td colspan="2"><strong>ราคารวม</strong>
 															</td>
 															<td class="text-center">
-																<input name="total" id="Price" value="" readonly="">
+																<input name="Price" id="total" value="" readonly="">
 															</td>
 														</tr>
 													</tfoot>
