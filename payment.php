@@ -225,7 +225,7 @@
 												                        </div><br>
                                                                     </ul>
                                                                         <div class="form-row place-order">
-                                                                            <input type="button" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="ชำระเงิน" onclick="PaymentBooking()">
+                                                                            <input type="submit" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="ชำระเงิน">
                                                                         </div>
                                                                         <div style="padding-top: 20px;" align="center">
                                                                         </div>
