@@ -41,11 +41,17 @@
                     if ($result->num_rows > 0) {
                         while($row = $result->fetch_assoc()) {
                             echo "<tr> 
-                            <td>".$row["Id_pck"]."</td>".
+                            <td>".$row["Id_order"]."</td>".
                             "<td>".$row["Name_pck"]."</td>".
                             "<td>".$row["image"]."</td>".
                             "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Detail_pck"]."</td>";
+                            "<td>".$row["Detail_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>".
+                            "<td>".$row["Price_pck"]."</td>";
                             echo "</tr>";    
                         }
                     }else {
