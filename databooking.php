@@ -41,7 +41,7 @@
                     if ($result->num_rows > 0) {
                         while($row = $result->fetch_assoc()) {
                             echo "<tr> 
-                            <td>".$row["Id.order"]."</td>".
+                            <td>".$row["Id_order"]."</td>".
                             "<td>".$row["Date"]."</td>".
                             "<td>".$row["Name_pck"]."</td>".
                             "<td>".$row["Firstname"]."</td>".
