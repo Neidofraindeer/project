@@ -56,7 +56,7 @@
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
 														<select id="input_prefix" name="Name_pck" class="country_to_state country_select" style="margin-bottom: 0px;" required="">
-						                                        <option value=""selected="">กรุณาเลือกแพ็กเกจ</option>
+						                                        <option value=""selected="">กรุณาเลือกแพ็กเกจที่ต้องการ</option>
                                                                 <option value="">แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</option>
 					                                    </select>
 														</p>
