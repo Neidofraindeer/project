@@ -8,13 +8,19 @@
 <body>
     <?php
         require 'conn.php';
-        $sql_update="INSERT INTO tb_loginuser(Username,Password) VALUES ('$_POST[Username]','$_POST[Password]')";
+
+        $Username=$_POST['Username'];
+        $Password=$_POST['Password'];
+
+        $Password=hash('sha512','&Password');
+        $sql_update="INSERT INTO tb_loginuser(Username,Password) VALUES ('$Username','$Password')";
+        
         $result= $conn->query($sql_update);
         if(!$result) {
         die("Error God Damn it : ". $conn->error);
         } else {
-        echo "Success <br>";
-        header("refresh: 1; url=http://localhost/project/index.php");
+            echo "<script> alert('เข้าสู่ระบบสำเร็จ'); </script>";
+            header("refresh: 1; url=http://localhost/project/index.php");
         }
     ?>
 </body>
