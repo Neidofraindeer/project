@@ -43,7 +43,7 @@
                             "<td>".$row["Price_pck"]."</td>".
                             "<td>".$row["Detail_pck"]."</td>".
                             "<td>"."<a class='btn btn-warning' href='editpackage.php? Id_pck=".$row["Id_pck"]."'>แก้ไข</a>"."</td>".
-                            "<td>"."<a class='btn btn-danger' href='deletepackage.php? Id_pck=".$row["Id_pck"]. "' >ลบ</a>"."</td>";
+                            "<td>"."<a class='btn btn-danger' href='deletepackage.php? Id_pck=".$row["Id_pck"]."' >ลบ</a>"."</td>";
                             echo "</tr>";    
                         }
                     }else {

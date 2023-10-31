@@ -18,7 +18,7 @@
         die("Error God Damn it : ". $conn->error);
         } else {
 
-            echo "<script> alert('ชำระเงินสำเร็จ'); </script>";
+            echo "<script> alert('จองทัวร์และชำระเงินสำเร็จ'); </script>";
             header("refresh: 1; url=http://localhost/project/index.php");
         }
 
