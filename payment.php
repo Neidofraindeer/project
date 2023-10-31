@@ -41,7 +41,7 @@
 								<form name="myForm" id="myForm" method="POST" class="checkout travel_tour-checkout" action="#">
 								<input type="hidden" id="myaction" name="myaction" value="">
 								<input type="hidden" id="tourid" name="tourid" value="33">
-	                            <input type="hidden" id="input_date" name="input_date" value="03/11/2023">
+	                            <input type="hidden" id="input_date" name="Date" value="03/11/2023">
 	                            <input type="hidden" id="input_adult" name="input_adult" value="1">
 	                            <input type="hidden" id="input_child" name="input_child" value="0">
 									<div class="row">
