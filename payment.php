@@ -25,8 +25,8 @@
                     <div class="banner-wrapper container article_heading">
                         <div class="breadcrumbs-wrapper">
                             <ul class="phys-breadcrumb">
-                                <li><a href="index.html" class="home">หน้าแรก</a></li>
-                                <li><a href="index.html">แพ็กเกจ</a></li>
+                                <li><a href="index.php" class="home">หน้าแรก</a></li>
+                                <li><a href="index.php">แพ็กเกจ</a></li>
                                 <li>ชำระเงิน</li>
                             </ul>
                         </div>

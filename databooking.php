@@ -42,7 +42,7 @@
                         while($row = $result->fetch_assoc()) {
                             echo "<tr> 
                             <td>".$row["Id_order"]."</td>".
-                            "<td>".$row["Name_pck"]."</td>".
+                            "<td>".$row["Date"]."</td>".
                             "<td>".$row["image"]."</td>".
                             "<td>".$row["Price_pck"]."</td>".
                             "<td>".$row["Detail_pck"]."</td>".
@@ -53,7 +53,7 @@
                             "<td>".$row["Price_pck"]."</td>".
                             "<td>".$row["Price_pck"]."</td>";
                             echo "</tr>";    
-                        }
+                        }(Date,Name_pck,Firstname,Lastname,Email,Tel,Price,File_pay,Date_pay,Comment)
                     }else {
                         echo "0 results";
                     }
