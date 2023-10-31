@@ -18,8 +18,8 @@
         die("Error God Damn it : ". $conn->error);
         } else {
 
-        echo "การจองสำเร็จ <br>";
-        header("refresh: 1; url=http://localhost/project/databooking.php");
+            echo "<script> alert('ชำระเงินสำเร็จ'); </script>";
+            header("refresh: 1; url=http://localhost/project/index.php");
         }
 
     ?>
