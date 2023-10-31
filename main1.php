@@ -247,7 +247,7 @@
 															<td colspan="2"><strong>ราคารวม</strong>
 															</td>
 															<td class="text-center">
-																<input name="Price" id="total" value="" readonly="">
+																<input name="total" id="total" value="" readonly="">
 															</td>
 														</tr>
 													</tfoot>
@@ -302,7 +302,7 @@
 													</tbody>
 												</table>
 												<div class="">
-													<input type="text" placeholder="วันเดินทาง" id="input_date" name="Date" value="" required="">
+													<input type="text" placeholder="วันเดินทาง" id="input_date" name="input_date" value="" required="">
 												</div>
 												<input class="btn-booking btn" value="จองทัวร์" type="submit">
 											</form>
