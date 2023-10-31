@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -29,9 +34,7 @@
 			<div class="header-area">
 				<!-- Start Navigation -->
 			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
-			        <div class="container">
-
+						
 			            <!-- Start Header Navigation -->
 			            <div class="navbar-header">
 			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -42,14 +45,16 @@
 			            </div><!--/.navbar-header-->
 			            <!-- End Header Navigation -->
 
+
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="index.html">หน้าหลัก</a></li>
+			                    <li class=" scroll active"><a href="index.php">หน้าหลัก</a></li>
 			                    <li class="scroll"><a href="index.php">แพ็กเกจทัวร์</a></li>
 			                    <li class="scroll"><a href="picture.html">รูปภาพ</a></li>
 			                    <li class="scroll"><a href="contact.html">ติดต่อเรา</a></li>
 								<li class="scroll"><a href="loginuser.php">ออกจากระบบ</a></li>
+								
 								
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
@@ -69,13 +74,13 @@
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main1.html" class="travel_tour-LoopProduct-link">
+											<a href="main1.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/Similan.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main1.html" rel="bookmark">แพ็กเกจ สิมิลัน 3 วัน 2 คืน</a>
+												<a href="main1.php" rel="bookmark">แพ็กเกจ สิมิลัน 3 วัน 2 คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 1 แพ็กเกจ</div>
@@ -90,7 +95,7 @@
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main1.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main1.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -100,7 +105,7 @@
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main2.html" class="travel_tour-LoopProduct-link">
+											<a href="main2.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/krabi.jpg" alt="" title="">
 											</a>
 										</div>

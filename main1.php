@@ -27,8 +27,8 @@
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html" class="home">หน้าแรก</a></li>
-						<li><a href="index.html">แพ็กเกจ</a></li>
+						<li><a href="index.php" class="home">หน้าแรก</a></li>
+						<li><a href="index.php">แพ็กเกจ</a></li>
 						<li>แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</li>
 					</ul>
 				</div>
@@ -227,7 +227,7 @@
 									<div class="clear"></div>
 									<div class="booking">
 										<div class="">
-											<form  action="payment.html" id="tourBookingForm" name="tourBookingForm" method="POST">
+											<form  action="payment.php" id="tourBookingForm" name="tourBookingForm" method="POST">
 		                                    <input type="hidden" id="tourid" name="tourid" value="94">
 		                                    <input type="hidden" id="myaction" name="myaction" value="">
 
@@ -315,7 +315,7 @@
 										<div class="wrapper-special-tours">
 
 																			<div class="inner-special-tours">
-									<a href="main13.html">
+									<a href="main13.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p4.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -325,7 +325,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main13.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
+										<a href="main13.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">

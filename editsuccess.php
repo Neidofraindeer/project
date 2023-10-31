@@ -17,7 +17,7 @@
         die("Error God Damn it : ". $conn->error);
         } else {
 
-        echo "Edit Success <br>";
+        echo "แก้ไขสำเร็จ <br>";
         header("refresh: 1; url=http://localhost/project/datapackage.php");
         }
 

@@ -14,7 +14,7 @@
         die("Error God Damn it : ". $conn->error);
         } else {
         echo "Success <br>";
-        header("refresh: 1; url=http://localhost/project/index.html");
+        header("refresh: 1; url=http://localhost/project/index.php");
         }
     ?>
 </body>
