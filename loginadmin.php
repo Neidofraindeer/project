@@ -103,7 +103,7 @@
              <input type="password" id="password" name="Password_admin" placeholder="รหัสผ่าน">
            </div>
            <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br><br>
-           <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งานระบบ</a>
+           <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
        </form>
 </body>
 </html>

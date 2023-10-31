@@ -102,7 +102,7 @@ button:hover {
           <input type="password" id="Password" name="Password" placeholder="รหัสผ่าน"><br>
           <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
           <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a><br><br>
-          <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งานระบบ</a>
+          <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>
       </form>
 </body>
 </html>

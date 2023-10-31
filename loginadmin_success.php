@@ -13,8 +13,8 @@
         if(!$result) {
         die("Error God Damn it : ". $conn->error);
         } else {
-        echo "Success <br>";
-        header("refresh: 1; url=http://localhost/project/databooking.php");
+            echo "<script> alert('เข้าสู่ระบบสำเร็จ'); </script>";
+            header("refresh: 1; url=http://localhost/project/databooking.php");
         }
     ?>
 </body>
