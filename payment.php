@@ -25,8 +25,8 @@
                     <div class="banner-wrapper container article_heading">
                         <div class="breadcrumbs-wrapper">
                             <ul class="phys-breadcrumb">
-                                <li><a href="index.html" class="home">หน้าแรก</a></li>
-                                <li><a href="index.html">แพ็กเกจ</a></li>
+                                <li><a href="index.php" class="home">หน้าแรก</a></li>
+                                <li><a href="index.php">แพ็กเกจ</a></li>
                                 <li>ชำระเงิน</li>
                             </ul>
                         </div>
@@ -38,7 +38,7 @@
 						<div class="entry-content">
 							<div class="travel_tour">
 								<div id="completed"></div>
-								<form name="myForm" id="myForm" method="POST" class="checkout travel_tour-checkout" action="#">
+								<form name="myForm" id="myForm" method="POST" class="checkout travel_tour-checkout" action="bookingsuccess.php">
 								<input type="hidden" id="myaction" name="myaction" value="">
 								<input type="hidden" id="tourid" name="tourid" value="33">
 	                            <input type="hidden" id="input_date" name="Date" value="03/11/2023">
@@ -204,7 +204,7 @@
                                                                     </tbody>
                                                                 </table>
                                                                 <div class="">
-                                                                    <input type="text" placeholder="วันเดินทาง" id="Date" name="Date" value="" required="">
+                                                                    วันเดินทาง <input type="Date" placeholder="วันเดินทาง" id="Date" name="Date" value="" required="">
                                                                 </div><br>                                                 
                                                                 <div id="payment" class="travel_tour-checkout-payment">
                                                                     <ul class="wc_payment_methods payment_methods methods">
@@ -220,7 +220,7 @@
                                                                             <input type="file" name="File_pay" id="image">
                                                                         </p> <br>
                                                                         <div class="">
-													                        <input type="text" placeholder="วันที่ชำระเงิน" id="Date_pay" name="Date_pay" value="" required="">
+                                                                        วันที่ชำระเงิน <input type="Date" placeholder="วันที่ชำระเงิน" id="Date_pay" name="Date_pay" value="" required="">
 												                        </div><br>
                                                                     </ul>
                                                                         <div class="form-row place-order">
