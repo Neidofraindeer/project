@@ -41,19 +41,19 @@
                     if ($result->num_rows > 0) {
                         while($row = $result->fetch_assoc()) {
                             echo "<tr> 
-                            <td>".$row["Id_order"]."</td>".
+                            <td>".$row["Id.order"]."</td>".
                             "<td>".$row["Date"]."</td>".
-                            "<td>".$row["image"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Detail_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>".
-                            "<td>".$row["Price_pck"]."</td>";
+                            "<td>".$row["Name_pck"]."</td>".
+                            "<td>".$row["Firstname"]."</td>".
+                            "<td>".$row["Lastname"]."</td>".
+                            "<td>".$row["Email"]."</td>".
+                            "<td>".$row["Tel"]."</td>".
+                            "<td>".$row["Price"]."</td>".
+                            "<td>".$row["File_pay"]."</td>".
+                            "<td>".$row["Date_pay"]."</td>".
+                            "<td>".$row["Comment"]."</td>";
                             echo "</tr>";    
-                        }(Date,Name_pck,Firstname,Lastname,Email,Tel,Price,File_pay,Date_pay,Comment)
+                        }
                     }else {
                         echo "0 results";
                     }
