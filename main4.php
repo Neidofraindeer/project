@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width">
-	<title>แพ็กเกจหลีเป๊ะ 3 วัน 2 คืน พักโรงแรม บันดาหยา วิลล่า</title>
+	<title>แพ็กเกจ ภูเก็ต 3วัน 2คืน พักโรงแรม Holiday inn express</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
@@ -19,6 +19,7 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/> 
 </head>
 
+
 <body class="single-product travel_tour-page travel_tour">
 <div class="wrapper-container">
 
@@ -27,11 +28,12 @@
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html" class="home">หน้าแรก</a></li>
-						<li><a href="index.html">แพ็กเกจ</a></li>
-						<li>แพ็กเกจหลีเป๊ะ 3 วัน 2 คืน พักโรงแรม บันดาหยา วิลล่า</li>
+						<li><a href="index.php">หน้าแรก</a></li>
+						<li><a href="index.php">แพ็กเกจ</a></li>
+						<li>แพ็กเกจ ภูเก็ต 3 วัน 2 คืน พักโรงแรม Holiday inn express</li>
 					</ul>
 				</div>
+
 				<h2 class="heading_primary">แพ็กเกจ</h2></div>
 		</div>
 		<section class="content-area single-woo-tour">
@@ -41,51 +43,42 @@
 						<div class="images images_single_left">
 							<div class="title-single">
 								<div class="title">
-									<h1>แพ็กเกจหลีเป๊ะ 3 วัน 2 คืน พักโรงแรม บันดาหยา วิลล่า</h1>
+									<h1>แพ็กเกจ ภูเก็ต 3 วัน 2 คืน พักโรงแรม Holiday inn express</h1>
 								</div>
 							</div>
 							<div class="tour_after_title">
 								<div class="meta_values">
 									<span>Category:</span>
 									<div class="value">
-										<a href="#" rel="tag">แพ็กเกจหลีเป๊ะ 3วัน 2คืน </a>
+										<a href="#" rel="tag">แพ็คเกจภูเก็ต 3วัน 2คืน</a>
 									</div>
 								</div>
 							</div>
 							<div id="slider" class="flexslider">
 								<ul class="slides">
 																		<li>
-										<a href="assets/images/m4.jpg" class="swipebox" title=""><img src="assets/images/m4.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.jpg" class="swipebox" title=""><img src="assets/images/m3.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.1.jpg" class="swipebox" title=""><img src="assets/images/m4.1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.1.jpg" class="swipebox" title=""><img src="assets/images/m3.1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.2.jpg" class="swipebox" title=""><img src="assets/images/m4.2.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.2.jpg" class="swipebox" title=""><img src="assets/images/m3.2.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.3.jpg" class="swipebox" title=""><img src="assets/images/m4.3.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.3.jpg" class="swipebox" title=""><img src="assets/images/m3.3.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.4.jpg" class="swipebox" title=""><img src="assets/images/m4.4.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.4.jpg" class="swipebox" title=""><img src="assets/images/m3.4.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.5.jpg" class="swipebox" title=""><img src="assets/images/m4.5.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.5.jpg" class="swipebox" title=""><img src="assets/images/m3.5.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.6.jpg" class="swipebox" title=""><img src="assets/images/m4.6.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.6.jpg" class="swipebox" title=""><img src="assets/images/m3.6.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 																		<li>
-										<a href="assets/images/m4.7.jpg" class="swipebox" title=""><img src="assets/images/m4.7.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
-									</li>
-																		<li>
-										<a href="assets/images/m4.8.jpg" class="swipebox" title=""><img src="assets/images/m4.8.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
-									</li>
-																		<li>
-										<a href="assets/images/m4.9.jpg" class="swipebox" title=""><img src="assets/images/m4.9.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
-									</li>
-																		<li>
-										<a href="assets/images/m4.10.jpg" class="swipebox" title=""><img src="assets/images/m4.10.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
+										<a href="assets/images/m3.7.jpg" class="swipebox" title=""><img src="assets/images/m3.7.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="" title="" draggable="false"></a>
 									</li>
 									
 								</ul>
@@ -93,37 +86,28 @@
 							<div id="carousel" class="flexslider thumbnail_product">
 								<ul class="slides">
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.4.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.4.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.5.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.5.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.6.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.6.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																		<li>
-										<img width="150" height="100" src="assets/images/m4.7.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
-									</li>
-																		<li>
-										<img width="150" height="100" src="assets/images/m4.8.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
-									</li>
-																		<li>
-										<img width="150" height="100" src="assets/images/m4.9.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
-									</li>
-																		<li>
-										<img width="150" height="100" src="assets/images/m4.10.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
+										<img width="150" height="100" src="assets/images/m3.7.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" title="" draggable="false">
 									</li>
 																	</ul>
 							</div>
@@ -148,12 +132,7 @@
 										<!--<h2>Product Description</h2>-->
 										<p>
 																	
-																	
-																	
-																	
-																	
-																	
-																	<div style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="5" color="#f83a22" style="box-sizing: inherit; margin: 0px; padding: 0px;"><u style="box-sizing: inherit; margin: 0px; padding: 0px;">แพ็คเกจหลีเป๊ะ 3 วัน 2 คืน</u></font></b></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px; font-size: medium;"><div style="box-sizing: inherit; font-size: 13px; font-weight: 400; margin: 0px; padding: 0px;"><br></div><div style="box-sizing: inherit; font-size: 13px; font-weight: 400; margin: 0px; padding: 0px;"><br style="box-sizing: inherit; margin: 0px; padding: 0px;"></div><ul open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" list-style-position:="" initial;="" list-style-image:="" initial;"="" style="box-sizing: inherit; margin-bottom: 1.5em; margin-left: 3em;"><li style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85);"><font size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;">พักบนเกาะหลีเป๊ะ โรงแรมบันดาหยาวิลล่าหลีเป๊ะ  จำนวน 2 คืน (ห้องดีลัก) พร้อมอาหารเช้า 2 มื้อ</font></li><li style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;"><font color="#555555">รวมรถรับ - ส่ง สนามบินหาดใหญ่ หรือ ตัวเมืองหาดใหญ่ </font><font color="#f83a22">แบบจอยทริป</font><font color="#555555"> (สนามบินรับ 09.00-09.30 / ตัวเมืองรับ 08.00-08.30น.)</font></font><br style="box-sizing: inherit; margin: 0px; padding: 0px;"></li><li style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;"><font color="#555555">ตั๋วเรือ speed ไป - กลับ จอยทริป จากท่าเรือปากบารา ส่ง เกาะหลีเป๊ะ</font></font></li><li style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85);"><font size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;">รวมทัวร์ รอบเกาะหลีเป๊ะ เรือหางยาวจอยทริป + อาหารกลางวัน 1 มื้อ + หน้ากาก เสื้อชูชีพ ประกันภัยทางทะเล</font></li></ul><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><font color="#555555" face="Roboto, Helvetica, Arial, sans-serif" size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;"><i style="box-sizing: inherit; margin: 0px; padding: 0px;">ราคาเดินทาง 1 พย. 2566 - 30 ธค. 2566 ท่านละ 6190 บาท</i></font></div><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><font color="#555555"><i>ราคาเดินทาง 3 มค. 2567 - 31 พค. 2567 ท่านละ 6190 บาท</i></font></div><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><font color="#555555" face="Roboto, Helvetica, Arial, sans-serif" size="3"><i>**ยกเว้นเทศกาลและปีใหม่ติดต่อเจ้าหน้าที่**</i></font></div><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><br></div><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><br></div><div open="" sans";="" font-size:="" 13px;="" font-weight:="" 400;="" margin:="" 0px;="" padding:="" 0px;"="" style="box-sizing: inherit;"><div style="box-sizing: inherit; margin: 0px; padding: 0px;"><font color="#f83a22" size="3"><b>***วิธีการจอง***</b></font></div><div style="box-sizing: inherit; margin: 0px; padding: 0px;"><ul><li><font size="3"><font color="#f83a22">โปรโมชั่น ติดต่อจอง คลิก : Line Official Account คลิก</font> : </font><a class="x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv x1fey0fg" href="https://l.facebook.com/l.php?u=https%3A%2F%2Flin.ee%2FkU3VEv5%3Ffbclid%3DIwAR3nwSTMRZdiBc7fJ1kPuL1TfvXC3DHK0V8TVZXbZeAQggOIfTz6-2PqXnc&h=AT34rJpzt0Wcg6zoDNuzuzU2vDRzi0hoGZnLhpQTHtKiltJpFE9fWIEzZShXyjdzbdr_PQl5o6AZZRwiKNjR26wRS6v4rx9xOGpIA19xs5ZpoNNLVpwtQAO0dYjT8B2D62ad&__tn__=-UK-R&c[0]=AT1aoy1ujj9_PqhQWXxpCEmTb6U1YlO1ir-yJpU9uSnO8ElJ6wB44MqaTdNyX9MVI01EJ9HU_905c17Z11Ua0VXh_4JXe_akfXAj3T6OUhc7TIG6U3_yXBORwy8ngM_HbJPOLilEjU51tZXsehj-qpg5m5xEkkjbw9Tv5ZWynWK4l-V-aA3-LHnf-YxQo_Wbx2QXSrrZc747" rel="nofollow noreferrer" role="link" tabindex="0" target="_blank" segoe="" ui="" historic",="" "segoe="" ui",="" helvetica,="" arial,="" sans-serif;="" font-size:="" 15px;="" white-space-collapse:="" preserve;"="" style="background-color: rgb(255, 255, 255); color: var(--blue-link); text-decoration-line: underline; cursor: pointer; border-width: 0px; border-style: initial; border-color: initial; outline: none; list-style: none; margin: 0px; padding: 0px; -webkit-tap-highlight-color: transparent; touch-action: manipulation; display: inline;">https://lin.ee/kU3VEv5</a></li><li><font size="3" color="#f83a22">แจ้งวันเดินทางที่ลุกค้าสนใจแอดมิน จะทำการเช็คห้องให้ค่ะ</font></li><li><font size="3" color="#f83a22">แอดมินสรุปยอดมัดจำการจองลูกค้าส่งสลิปในช่องแชทที่ทำการติดต่อ</font></li><li><font size="3" color="#f83a22">แอดมินออกเอกสารการยืนยัน</font></li></ul></div></div></b></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px; font-size: medium;"><br></b></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px; font-size: medium;">ราคาในแพ็คเกจไม่รวม</b></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><span style="font-size: medium;">-ไม่รวมค่าธรรมเนียมต่างๆ เช่น ค่าผ่านท่าเรือ ค่าอุทยาน ค่าโป๊ะเรือหางยาว 120 บาท /ท่านสำหรับคนไทย</span></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; color: rgb(85, 85, 85); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><font size="3" style="box-sizing: inherit; margin: 0px; padding: 0px;">--------------------------------------------------------------------------------------------------------------------</font></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; font-family: Roboto, Helvetica, Arial, sans-serif;"><ul><li><font size="3" color="#f83a22"><i><b>ลูกค้าเช็ครอบเรือกับแอดมินในช่วงนี้ก่อนนนะคะ</b></i></font></li><li><font color="#f83a22" size="3"><b><i>ราคาเด็กติดต่อแอดมินได้เพื่อทำราคาค่ะ</i></b></font></li></ul></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; font-family: Roboto, Helvetica, Arial, sans-serif;"><font size="3" color="#f83a22"><i><b><br></b></i></font></div><div style="box-sizing: inherit; margin: 0px; padding: 0px; font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 14px;"><div style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="3" color="#f83a22" style="box-sizing: inherit; margin: 0px; padding: 0px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px;"><br></b></font></div><div style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="3" color="#f83a22" style="box-sizing: inherit; margin: 0px; padding: 0px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px;">**เดินทางระหว่าง 16 ต.ค.  – 15 พ.ค. จะดำน้ำ เกาะหินงาม ร่องน้ำจาบัง เกาะอาดัง เกาะราวี</b></font></div><div style="box-sizing: inherit; margin: 0px; padding: 0px;"><font size="3" color="#f83a22" style="box-sizing: inherit; margin: 0px; padding: 0px;"><b style="box-sizing: inherit; margin: 0px; padding: 0px;">**เดินทางระหว่าง 16 พ.ค – 15 ต.ค  จะดำน้ำ เกาะกระ เกาะตาลัง เกาะหินขาว เกาะอุเสน</b></font></div></div>
+																	<div><font size="3" color="#f83a22"><b>ช่วงวันที่   1 เมษายน -   31 ตุลาคม    ราคา  3990</b></font></div><div><font size="3" color="#f83a22"><b>ช่วงวันที่   1 พฤศจิกายน – 20 ธันวา คม    ราคา รอแจ้ง</b></font></div><div><font size="3" color="#f83a22"><b>ช่วงวันที่   21 ธันวาคม  – 10 มกราคม      ราคา รอแจ้ง </b></font></div><div><font size="3" color="#f83a22"><b>ช่วงวันที่   11 มกราคม  – 31 มีนาคม     ราคา  รอแจ้ง</b></font></div><div><font size="3" color="#f83a22"><b><br></b></font></div><div><font size="3"><b>รายละเอียดแพ้คเกจภูเก็ต 3 วัน 2 คืน พักที่ โรงแรม </b></font><b><span style="font-size: medium;">Holiday inn express</span><span style="font-size: medium;"> </span></b></div><div><font size="3">     รวมห้องพักโรงแรม Holiday inn express  ภูเก็ต ห้อง  Standard Single / Twin จำนวน 2 คืน</font></div><div><span style="font-size: medium;">     </span><font size="3">รวมรถรับ-ส่ง สนามบินภูเก็ต / บ ข ส ภูเก็ต แบบส่วนตัว</font></div><div><span style="font-size: medium;">     </span><font size="3">รวมทัวร์ สปีดโบ๊ท เกาะเฮ เกาะราชา</font></div><div><span style="font-size: medium;">     </span><font size="3">รถรับส่งทัวร์ฟรี ในเมือง ป่าตอง กะตะ กะรน</font></div><div><span style="font-size: medium;">     </span><font size="3">รวมอาหาร 3 มื้อ  (เช้า2 กลางวัน 1 มื้อ)</font></div><div><span style="font-size: medium;">     </span><font size="3">รวมอุปกรณ์ดำน้ำ รวมไกด์ รวมของว่างระหว่างทัวร์</font></div><div><span style="font-size: medium;">     </span><font size="3">รวมประกันภัยตลอดทริป</font></div><div><br></div><div><font size="3"><b>*****  เปลี่ยนโปรแกรมทัวร์ จากแพกเก็จเดิม </b></font><b style="font-size: medium;"><font color="#f83a22">(ติดต่อเจ้าหน้าที่)</font></b><b style="font-size: medium;">*****</b></div><div><font size="3"><b>ทัวร์เกาะสิมิลัน  ชำระเพิ่ม 1300 บาท/ท่าน <font color="#f83a22">(เดินทางได้ 15 ตุลา -15 พฤษภา)</font></b></font></div><div><font size="3"><b>ทัวร์ เกาะไม้ท่อน ชำระเพิ่ม 1700 บาท/ท่าน</b></font></div><div><font size="3"><b>ทัวร์ สุรินทร์       ชำระเพิ่ม 1700 บาท/ท่าน  <font color="#f83a22">(เดินทางได้ 15 ตุลา -15 พฤษภา)</font></b></font></div><div><br></div>
 																	</p>
 
 									</div>
@@ -162,34 +141,22 @@
 											<p><span class="icon-left">1</span></p>
 											<div class="item_content">
 												<h2><strong>วันแรก</strong></h2>
-												<p>09.00 น ลูกค้าเดินทางถึงสนามบินหาดใหญ่(รถตู้แบบจอย รอรับ)  
- ลูกค้าต้องมีไฟท์บินไม่เกิน 09.00 น เพื่อจะทันเรือ 11.30 น เรือรอบนี้จะแวะเกาะไข่ 
- นำท่านชมซุ้มประตู ซึ่งเป็นสัญลักษณ์ของจังหวัดสตูล
-</p>
+												<p>รับลูกค้าจากสนามบินภูเก็ต / บขส ภูเก็ต ส่งที่พัก ตามที่ลูกค้าเลือกไว้</p>
 											</div>
 										</div>
 																				<div class="interary-item">
 											<p><span class="icon-left">2</span></p>
 											<div class="item_content">
-												<h2><strong>วันที่ 2</strong></h2>
-												<p>- 08.00 น  รับประทานอาหารเช้า ทีโรงแรม
-- 10.30 น ออกเดินทางโดยเรือหางยาว เดินทางร่องน้ำจาบัง เต็มไปด้วยประการัง 7 สี
-- 11.00 น นำท่านเดินทางสู่เกาะหินงาม เกาะที่มีหาดเป็นสีดำ สีเหล่านี้จะประกายกับแสงอาทิตย์ เป็นที่สวยงาม
-- 12.00  บริการอาหารเที่ยงแบบเซ็ทกล่อง ที่(เกาะราวี) เดินเล่นชายหาดพักผ่อนตามอัธยาศัย
-- 13.30 น นำท่านไปยังเกาะยางท่านจะพบปลานานาชนิด ดำน้ำดูประการัง  เขากวาง
-- 15.00 น นำท่านมาถึง เกาะอาดัง ชมความสวยงามของเกาะอาดัง
-- 16.30 น น้ำท่านเดินทางสู่เกาะหลีเป๊ะ ลุูกค้ากลับที่พัก</p>
+												<h2><strong>วันที่สอง</strong></h2>
+												<p>รับประทานอาหารเช้า 
+เตรียมพร้อมออกไปดำน้ำ ที่เกาะเฮ เกาะราชาสปีดโบ๊ท ดื่มด่ำธรรมชาติที่สมบูรณ์ พร้อมทั้งหาดทรายที่ ขาวนวลละเอียดน่าสัมผัส แวะทานอาหารเที่ยง ที่ ร้านอาหารบนเกาะราชา หรือรายาแบบบุฟเฟ่ต์</p>
 											</div>
 										</div>
 																				<div class="interary-item">
 											<p><span class="icon-left">3</span></p>
 											<div class="item_content">
-												<h2><strong>วันที่ 3</strong></h2>
-												<p>08.00 น รับประทานอาหารเช้า ที่โรงแรม
-รอบเรือขากลับ
-ลูกค้ากลับเรือ รอบ 09.30น จะถึงหาดใหญ่ประมาณ 
-14.30 น
-ลูกค้ากลับเรือ รอบ 11.30 น จะถึงหาดใหญ่ประมาณ 16.00 น </p>
+												<h2><strong>วันที่สาม</strong></h2>
+												<p>รับประทานอาหารเช้าที่โรงแรม เช็คเอ้าท์ ออกจากโรงแรม ก่อน 11.30 น นัดเวลารับลูกค้า ส่งกลับ สนามบิน / บขส ตามเวลาที่ระบุ </p>
 											</div>
 										</div>
 																			</div>
@@ -212,7 +179,7 @@
 																	<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 																</div>
 																<p class="meta">
-																	<strong>physcode</strong> 
+																	<strong>physcode</strong>
 																	<time datetime="2017-01-24T03:54:04+00:00">January 24, 2017</time>
 																	:
 																</p>
@@ -272,12 +239,12 @@
 									<div id="showprice">
 									<p class="price" align="center" style="padding-top: 20px;">
 										<span class="text" style="font-size: 20px;">
-										ผู้ใหญ่ <strong>6,600</strong><small> บาทต่อคน</small>
+										ผู้ใหญ่ <strong>3,390</strong><small> บาทต่อคน</small>
                             			</span>
 									</p>
 									<p class="price" align="center">
 										<span class="text" style="font-size: 20px;">
-										เด็ก <strong>6,200</strong><small> บาทต่อคน</small></span>
+										เด็ก <strong>3,390</strong><small> บาทต่อคน</small></span>
 									</p>
 									</div>
 									<p class="price" align="center">
@@ -294,8 +261,8 @@
 									<div class="clear"></div>
 									<div class="booking">
 										<div class="">
-											<form  action="payment.html" id="tourBookingForm" name="tourBookingForm" method="POST">
-		                                    <input type="hidden" id="tourid" name="tourid" value="130">
+											<form  action="payment4.php" id="tourBookingForm" name="tourBookingForm" method="POST">
+		                                    <input type="hidden" id="tourid" name="tourid" value="20">
 		                                    <input type="hidden" id="myaction" name="myaction" value="">
 
 		                                    <table id="tickets" class="table">
@@ -321,7 +288,7 @@
 													<tbody>
 														<tr>
 															<td><strong>ผู้ใหญ่</strong><a href="#" class="tooltip-1" data-placement="top" title="" data-original-title="16 - 65 years old"><sup class="icon-info-4"></sup></a>
-																<span class="price">6600</span>
+																<span class="price">3390</span>
 															</td>
 															<td>
 																<div class="styled-select">
@@ -343,7 +310,7 @@
 															</td>
 														</tr>
 														<tr>
-															<td><strong>เด็ก (4-10)</strong><a href="#" class="tooltip-1" data-placement="top" title="" data-original-title="9 - 15 years old"><sup class="icon-info-4"></sup></a><span class="price">6200</span>
+															<td><strong>เด็ก (4-10)</strong><a href="#" class="tooltip-1" data-placement="top" title="" data-original-title="9 - 15 years old"><sup class="icon-info-4"></sup></a><span class="price">3390</span>
 															</td>
 															<td>
 																<div class="styled-select">
@@ -365,12 +332,12 @@
 															<td class="text-center"><span class="subtotal">$0</span>
 															</td>
 														</tr>
-
 													</tbody>
 												</table>
 												<div class="">
 													<input type="text" placeholder="วันเดินทาง" id="input_date" name="input_date" value="" required="">
 												</div>
+												
 												<input class="btn-booking btn" value="จองทัวร์" type="submit">
 											</form>
 										</div>
@@ -495,6 +462,7 @@
 									<li>
 										<i class="fa fa-envelope fa-fw"></i><a href="mailto:1164109050867@mail.rmutt.ac.th">1164109050867@mail.rmutt.ac.th</a>
 									</li>
+								</ul>
 							</div>
 						</div>
 					</aside>
@@ -528,7 +496,7 @@
 															</ul>
 						</div>
 					</aside>
-				
+					
 				</div>
 			</div>
 		</div>

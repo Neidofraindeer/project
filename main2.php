@@ -28,8 +28,8 @@
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html" class="home">หน้าแรก</a></li>
-						<li><a href="index.html">แพ็กเกจ</a></li>
+						<li><a href="index.php" class="home">หน้าแรก</a></li>
+						<li><a href="index.php">แพ็กเกจ</a></li>
 						<li>โรงแรม BLUESOTEL อ่าวนาง</li>
 					</ul>
 				</div>
@@ -320,7 +320,7 @@
 									<div class="clear"></div>
 									<div class="booking">
 										<div class="">
-											<form  action="payment.html" id="tourBookingForm" name="tourBookingForm" method="POST">
+											<form  action="payment2.php" id="tourBookingForm" name="tourBookingForm" method="POST">
 		                                    <input type="hidden" id="tourid" name="tourid" value="102">
 		                                    <input type="hidden" id="myaction" name="myaction" value="">
 
@@ -352,6 +352,7 @@
 															<td>
 																<div class="styled-select">
 																	<select class="form-control" name="input_adult" id="input_adult">
+																																				<option value="1">1</option>
 																																				<option value="2">2</option>
 																																				<option value="3">3</option>
 																																				<option value="4">4</option>

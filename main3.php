@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-        <title>แพ็กเกจ</title>
+        <title>แพ็กเกจตรัง 3วัน 2คืน</title>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/> 
         <link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">
@@ -17,19 +17,22 @@
     </head>
 
     <body>
-		<body class="single-product travel_tour-page travel_tour">
-			<div class="wrapper-container">
+
+		<section class="top-area">
+			<div class="header-area">
+
 
 	<div class="site wrapper-content">
 		<div class="top_site_main" style="background-image:url(assets/images/bg.jpg);">
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html" class="home">หน้าแรก</a></li>
-						<li>แพ็กเกจ</li>
+						<li><a href="index.php">หน้าแรก</a></li>
+						<li><a href="index.php">แพ็กเกจ</a></li>
+						<li>แพ็กเกจตรัง 3วัน 2คืน</li>
 					</ul>
 				</div>
-				<h1 class="heading_primary">แพ็กเกจเกาะช้าง</h1></div>
+				<h1 class="heading_primary">แพ็กเกจกระบี่</h1></div>
 		</div>
 		<script type="text/javascript">
 		                         function submitpagelist(name,value) {

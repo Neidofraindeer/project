@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-        <title>แพ็กเกจตรัง 3วัน 2คืน</title>
+        <title>แพ็กเกจ</title>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
         <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/> 
         <link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">
@@ -17,22 +17,19 @@
     </head>
 
     <body>
-
-		<section class="top-area">
-			<div class="header-area">
-
+		<body class="single-product travel_tour-page travel_tour">
+			<div class="wrapper-container">
 
 	<div class="site wrapper-content">
 		<div class="top_site_main" style="background-image:url(assets/images/bg.jpg);">
 			<div class="banner-wrapper container article_heading">
 				<div class="breadcrumbs-wrapper">
 					<ul class="phys-breadcrumb">
-						<li><a href="index.html">หน้าแรก</a></li>
-						<li><a href="index.html">แพ็กเกจ</a></li>
-						<li>แพ็กเกจตรัง 3วัน 2คืน</li>
+						<li><a href="index.php" class="home">หน้าแรก</a></li>
+						<li><a href="index.php" class="home">แพ็คเกจ</a></li>
 					</ul>
 				</div>
-				<h1 class="heading_primary">แพ็กเกจกระบี่</h1></div>
+				<h1 class="heading_primary">แพ็กเกจเกาะช้าง</h1></div>
 		</div>
 		<script type="text/javascript">
 		                         function submitpagelist(name,value) {
@@ -86,7 +83,7 @@
 							<div class="wrapper-special-tours">
 								
 																<div class="inner-special-tours">
-									<a href="main13.html">
+									<a href="main13.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p4.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -96,7 +93,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main13.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
+										<a href="main13.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">
@@ -106,7 +103,7 @@
 									</div>
 								</div>
 																<div class="inner-special-tours">
-									<a href="main14.html">
+									<a href="main14.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p5.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -116,7 +113,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main14.html" rel="bookmark">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a>
+										<a href="main14.php" rel="bookmark">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">
@@ -126,7 +123,7 @@
 									</div>
 								</div>
 																<div class="inner-special-tours">
-									<a href="main15.html">
+									<a href="main15.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p6.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -136,7 +133,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main15.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a>
+										<a href="main15.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">
@@ -146,7 +143,7 @@
 									</div>
 								</div>
 																<div class="inner-special-tours">
-									<a href="main16.html">
+									<a href="main16.php">
 										<span class="onsale">Sale!</span>										<img width="430" height="305" src="assets/images/p10.jpg"></a>
 									<div class="item_rating">
 										<i class="fa fa-star"></i>
@@ -156,7 +153,7 @@
 										<i class="fa fa-star"></i>
 									</div>
 									<div class="post_title"><h3>
-										<a href="main16.html" rel="bookmark">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a>
+										<a href="main16.php" rel="bookmark">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a>
 									</h3></div>
 									<div class="item_price">
 												<span class="price">
@@ -224,10 +221,10 @@
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 								<li>
-									<a href="index.html">หน้าแรก</a>
+									<a href="index.php">หน้าแรก</a>
 									</li>
 									<li>
-										<a href="index.html">แพ็กเก็ตทัวร์</a>
+										<a href="index.php">แพ็กเก็ตทัวร์</a>
 									</li>
 									<li>
 										<a href="picture.html">รูปภาพ</a>
@@ -242,11 +239,11 @@
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 								<li><a href="main13.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a></li>
-								<li><a href="main14.html">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
-								<li><a href="main15.html">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
-								<li><a href="main16.html">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
-								<li><a href="main17.html">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
-								<li><a href="main12.html">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน (เช้า/บ่าย) </a></li>
+								<li><a href="main14.php">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
+								<li><a href="main15.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
+								<li><a href="main16.php">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
+								<li><a href="main17.php">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
+								<li><a href="main12.php">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน (เช้า/บ่าย) </a></li>
 															</ul>
 						</div>
 					</aside>

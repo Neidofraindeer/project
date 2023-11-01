@@ -111,7 +111,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main2.html" rel="bookmark">แพ็กเกจกระบี่ 3 วัน 2 คืน</a>
+												<a href="main2.php" rel="bookmark">แพ็กเกจกระบี่ 3 วัน 2 คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 1 แพ็กเกจ</div>
@@ -126,7 +126,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main2.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main2.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -136,13 +136,13 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main3.html" class="travel_tour-LoopProduct-link">
+											<a href="main3.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/Trang.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main3.html" rel="bookmark">แพ็กเกจตรัง 3วัน 2 คืน</a>
+												<a href="main3.php" rel="bookmark">แพ็กเกจตรัง 3วัน 2 คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 0 แพ็กเกจ</div>
@@ -158,7 +158,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main3.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main3.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -168,13 +168,13 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main4.html" class="travel_tour-LoopProduct-link">
+											<a href="main4.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/Phuket.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main4.html" rel="bookmark">แพ็กเกจภูเก็ต 3วัน 2คืน</a>
+												<a href="main4.php" rel="bookmark">แพ็กเกจภูเก็ต 3วัน 2คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 1 แพ็กเกจ</div>
@@ -189,7 +189,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main4.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main4.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -199,13 +199,13 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main5.html" class="travel_tour-LoopProduct-link">
+											<a href="main5.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/Lipe.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main5.html" rel="bookmark">แพ็กเกจหลีเป๊ะ 3วัน 2คืน </a>
+												<a href="main5.php" rel="bookmark">แพ็กเกจหลีเป๊ะ 3วัน 2คืน </a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 1 แพ็กเกจ</div>
@@ -220,7 +220,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main5.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main5.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -230,13 +230,13 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main6.html" class="travel_tour-LoopProduct-link">
+											<a href="main6.php" class="travel_tour-LoopProduct-link">
 												<img src="assets/images/KohChang.jpg" alt="" title="">
 											</a>
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main6.html" rel="bookmark">แพ็กเกจเกาะช้าง 3 วัน 2 คืน</a>
+												<a href="main6.php" rel="bookmark">แพ็กเกจเกาะช้าง 3 วัน 2 คืน</a>
 											</h4>
 										</div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> 0 แพ็กเกจ</div>
@@ -251,7 +251,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main6.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main6.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -276,7 +276,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main7.html" class="travel_tour-LoopProduct-link">
+											<a href="main7.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">10,000</span>
@@ -289,7 +289,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main7.html" rel="bookmark">เรือหางยาว Luxury เกาะห้องหางยาว</a>
+												<a href="main7.php" rel="bookmark">เรือหางยาว Luxury เกาะห้องหางยาว</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>โปรแกรมเรือหางยาว แบบ Luxury เกาะห้อง โปรแกรมสุด vip ถ่ายรูปสวยๆ ทะเลกระบี่
@@ -304,7 +304,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main7.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main7.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -314,7 +314,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main8.html" class="travel_tour-LoopProduct-link">
+											<a href="main8.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">8,000</span>
@@ -327,7 +327,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main8.html" rel="bookmark">เรือหางยาว Luxury 4 เกาะทะเลแหวกหางยาว</a>
+												<a href="main8.php" rel="bookmark">เรือหางยาว Luxury 4 เกาะทะเลแหวกหางยาว</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>โปรแกรมเรือหางยาว แบบ Luxury 4เกาะทะเลแหวก โปรแกรมสุด vip ถ่ายรูปสวยๆ ทะเลกระบี่..</p>
@@ -341,7 +341,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main8.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main8.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -351,7 +351,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main9.html" class="travel_tour-LoopProduct-link">
+											<a href="main9.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">2,000</span>
@@ -364,7 +364,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main9.html" rel="bookmark">ซันเซ็ท 4 เกาะ ล่องเรือหรู เฉพาะ ศุกร์ เสาร์ อาทิตย์</a>
+												<a href="main9.php" rel="bookmark">ซันเซ็ท 4 เกาะ ล่องเรือหรู เฉพาะ ศุกร์ เสาร์ อาทิตย์</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>พบกับโปรแกรมซันเซ็ท 4   อาหารเครื่องดื่ม ครบครัน ล่องเรือหรูสุดชลล์ ดื่มด่ำบรรยากาศพระอาทิตย์ตก..</p>
@@ -378,7 +378,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main9.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main9.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -388,7 +388,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main10.html" class="travel_tour-LoopProduct-link">
+											<a href="main10.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">2,500</span>
@@ -401,7 +401,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main10.html" rel="bookmark">โรงแรม SEA SEEKER </a>
+												<a href="main10.php" rel="bookmark">โรงแรม SEA SEEKER </a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i>3วัน 2คืน</div>
 											<p>โรงแรม seaseeker อยู่ห่างจากหาดเพียง 1 กม +ทัวร์4ทะเลแหวก+รถรับส่งส่วนตัว</p>
@@ -415,7 +415,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main10.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main10.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -425,7 +425,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main11.html" class="travel_tour-LoopProduct-link">
+											<a href="main11.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																								<ins><span class="travel_tour-Price-amount amount">1,990 บาท</span></ins>
 																							</span>
@@ -434,7 +434,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main11.html" rel="bookmark">โรงแรมฮอลิเดย์ อินน์ เอ็กเพรส อ่าวนาง (ติดหาดอ่าวนาง)</a>
+												<a href="main11.php" rel="bookmark">โรงแรมฮอลิเดย์ อินน์ เอ็กเพรส อ่าวนาง (ติดหาดอ่าวนาง)</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i>3วัน 2คืน</div>
 											<p>พักโรงแรม ฮอลิเดย์อินอ่าวนางติดหาด +ทัวร์4เกาะทะเลแหวก+รถรับส่งส่วนตัว</p>
@@ -448,7 +448,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main11.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main11.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -458,7 +458,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main12.html" class="travel_tour-LoopProduct-link">
+											<a href="main12.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">850</span>
@@ -471,7 +471,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main12.html" rel="bookmark">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน (เช้า/บ่าย) </a>
+												<a href="main12.php" rel="bookmark">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน (เช้า/บ่าย) </a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i>ทัวร์ครึ่งวัน</div>
 											<p>แพ็คเกจทัวร์ พายเรือคายัค "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ หมู่เกาะ ชาดหาด และขุนเขา..</p>
@@ -485,7 +485,7 @@ session_start();
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<a href="main12.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main12.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -507,7 +507,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main13.html" class="travel_tour-LoopProduct-link">
+											<a href="main13.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">800</span>
@@ -520,7 +520,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main13.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
+												<a href="main13.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>ทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว  "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ หมู่เกาะ ชาดหาด และขุนเขา..</p>
@@ -530,7 +530,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main13.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main13.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -540,7 +540,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main14.html" class="travel_tour-LoopProduct-link">
+											<a href="main14.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">1,800</span>
@@ -553,7 +553,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main14.html" rel="bookmark">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a>
+												<a href="main14.php" rel="bookmark">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>แพ็คเกจทัวร์ พีพี เรือสปีดโบ็ท "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ หมู่เกาะ ชาดหาด และขุนเขา..</p>
@@ -563,7 +563,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main14.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main14.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -573,7 +573,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main15.html" class="travel_tour-LoopProduct-link">
+											<a href="main15.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">1,200</span>
@@ -586,7 +586,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main15.html" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a>
+												<a href="main15.php" rel="bookmark">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>แพ็คเกจทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ หมู่เกาะ ชาดหาด และขุนเขา..</p>
@@ -596,7 +596,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main15.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main15.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -606,7 +606,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main16.html" class="travel_tour-LoopProduct-link">
+											<a href="main16.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">1,200</span>
@@ -619,7 +619,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main16.html" rel="bookmark">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a>
+												<a href="main16.php" rel="bookmark">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>แพ็คเกจทัวร์ 7 เกาะ sunset "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ ชายหาด..</p>
@@ -629,7 +629,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main16.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main16.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -639,7 +639,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main17.html" class="travel_tour-LoopProduct-link">
+											<a href="main17.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">1,500</span>
@@ -652,7 +652,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main17.html" rel="bookmark">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a>
+												<a href="main17.php" rel="bookmark">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i> ทัวร์ 1 วัน</div>
 											<p>แพ็คเกจทัวร์เกาะห้อง "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า จุดชมวิว 360..</p>
@@ -662,7 +662,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main17.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main17.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -672,7 +672,7 @@ session_start();
 								<div class="item_border">
 									<div class="item_content">
 										<div class="post_images">
-											<a href="main12.html" class="travel_tour-LoopProduct-link">
+											<a href="main12.php" class="travel_tour-LoopProduct-link">
 											<span class="price">
 																									<del>
 														<span class="travel_tour-Price-amount amount">850</span>
@@ -685,7 +685,7 @@ session_start();
 										</div>
 										<div class="wrapper_content">
 											<div class="post_title"><h4>
-												<a href="main12.html" rel="bookmark">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a>
+												<a href="main12.php" rel="bookmark">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a>
 											</h4></div>
 											<div align="left"><i class="vc_icon_element-icon flaticon-travel-2" style="color: #26bdf7;font-size: 20px;"></i>ทัวร์ครึ่งวัน</div>
 											<p>แพ็คเกจทัวร์ พายเรือคายัค "มรกตแห่งอันดามัน" สัมผัสทรัพยากรธรรมชาติงดงาม ไม่ว่าจะ เป็นผืนป่า ถ้ำ หมู่เกาะ ชาดหาด และขุนเขา..</p>
@@ -695,7 +695,7 @@ session_start();
 										<div class="item_rating">
 											<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 										</div>
-										<a href="main12.html" class="read_more_button">ดูข้อมูลเพิ่มเติม
+										<a href="main12.php" class="read_more_button">ดูข้อมูลเพิ่มเติม
 											<i class="fa fa-long-arrow-right"></i></a>
 										<div class="clear"></div>
 									</div>
@@ -800,10 +800,10 @@ session_start();
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 								<li>
-                                <a href="index.html">หน้าแรก</a>
+                                <a href="index.php">หน้าแรก</a>
                                 </li>
                                 <li>
-                                    <a href="index.html">แพ็กเก็ตทัวร์</a>
+                                    <a href="index.php">แพ็กเก็ตทัวร์</a>
 								</li>
 								<li>
                                     <a href="picture.html">รูปภาพ</a>
@@ -818,11 +818,11 @@ session_start();
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 																<li><a href="main13.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a></li>
-																<li><a href="main14.html">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
-																<li><a href="main15.html">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
-																<li><a href="main16.html">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
-																<li><a href="main17.html">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
-																<li><a href="main12.html">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a></li>
+																<li><a href="main14.php">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
+																<li><a href="main15.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
+																<li><a href="main16.php">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
+																<li><a href="main17.php">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
+																<li><a href="main12.php">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a></li>
 															</ul>
 						</div>
 					</aside>
