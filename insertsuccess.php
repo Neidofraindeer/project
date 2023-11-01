@@ -18,7 +18,7 @@
         die("Error God Damn it : ". $conn->error);
         } else {
 
-        echo "เพิ่มข้อมูลสำเร็จ <br>";
+        echo "<script> alert('เพิ่มข้อมูลสำเร็จ'); </script>";
         header("refresh: 1; url=http://localhost/project/datapackage.php");
         }
 

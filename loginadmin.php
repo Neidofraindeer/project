@@ -98,9 +98,9 @@
            <img src="assets/images/ผู้ดูแลระบบ.png" alt="">
          </div>
          <div class="form-group">
-           <input type="text" id="username "name="Username_admin"  placeholder="ชื่อผู้ใช้">
+           <input type="text" id="username "name="Username_admin"  placeholder="ชื่อผู้ใช้" required>
            <div class="bio">
-             <input type="password" id="password" name="Password_admin" placeholder="รหัสผ่าน">
+             <input type="password" id="password" name="Password_admin" placeholder="รหัสผ่าน" required>
            </div>
            <input type="submit" name="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br><br>
            <a class="btn btn-success" href='main.php'>เลือกผู้ใช้งาน</a>

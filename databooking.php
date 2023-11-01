@@ -17,8 +17,8 @@
 </head>
 <body>
     <div class="container"><br>
-    <a class="btn btn-success" href='datapackage.php'>ข้อมูลแพ็คเกจ</a>
-    <a class="btn btn-success" href='#databooking'>ข้อมูลการจองแพ็คเกจ</a><br><br>
+    <a class="btn btn-success" href='#databooking'>ข้อมูลการจองแพ็คเกจ</a>
+    <a class="btn btn-success" href='datapackage.php'>ข้อมูลแพ็คเกจ</a><br><br>
         <h1>ข้อมูลการจองแพ็คเกจ</h1><br>
         <table class="table">
             <thead>

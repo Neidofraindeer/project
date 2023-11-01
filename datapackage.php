@@ -17,8 +17,8 @@
 </head>
 <body>
     <div class="container"><br>
-    <a class="btn btn-success" href='#datapackage'>ข้อมูลแพ็คเกจ</a>
-    <a class="btn btn-success" href='databooking.php'>ข้อมูลการจองแพ็คเกจ</a><br><br>
+    <a class="btn btn-success" href='databooking.php'>ข้อมูลการจองแพ็คเกจ</a>
+    <a class="btn btn-success" href='#datapackage'>ข้อมูลแพ็คเกจ</a><br><br>
         <h1>ข้อมูลแพ็คเกจ</h1><br>
         <table class="table">
             <thead>
@@ -43,7 +43,7 @@
                             "<td>".$row["Price_pck"]."</td>".
                             "<td>".$row["Detail_pck"]."</td>".
                             "<td>"."<a class='btn btn-warning' href='editpackage.php? Id_pck=".$row["Id_pck"]."'>แก้ไข</a>"."</td>".
-                            "<td>"."<a class='btn btn-danger' href='deletepackage.php? Id_pck=".$row["Id_pck"]. "' >ลบ</a>"."</td>";
+                            "<td>"."<a class='btn btn-danger' href='deletepackage.php? Id_pck=".$row["Id_pck"]."'>ลบ</a>"."</td>";
                             echo "</tr>";    
                         }
                     }else {

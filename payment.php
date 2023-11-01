@@ -56,8 +56,8 @@
 																<abbr class="required" title="required">*</abbr>
                                                             </label>
 														<select id="input_prefix" name="Name_pck" class="country_to_state country_select" style="margin-bottom: 0px;" required="">
-						                                        <option value=""selected="">กรุณาเลือกแพ็กเกจที่ต้องการ</option>
-                                                                <option value="">แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</option>
+						                                        <option value="กรุณาเลือกแพ็กเกจที่ต้องการ">กรุณาเลือกแพ็กเกจที่ต้องการ</option>
+                                                                <option value="แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL">แพ็กเกจกระบี่ 3 วัน 2 คืน โรงแรม MONOTEL</option>
 					                                    </select>
 														</p>
 														<p class="form-row form-row form-row-first validate-required" id="billing_first_name_field">
@@ -225,7 +225,7 @@
 												                        </div><br>
                                                                     </ul>
                                                                         <div class="form-row place-order">
-                                                                            <input type="submit" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="ชำระเงิน">
+                                                                            <input type="submit" class="button alt" name="travel_tour_checkout_place_order" id="place_order" value="จองทัวร์และชำระเงิน">
                                                                         </div>
                                                                         <div style="padding-top: 20px;" align="center">
                                                                         </div>

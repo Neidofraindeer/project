@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>การจองและชำระเงิน</title>
 </head>
 <body>
     <form action="databooking.php">
@@ -18,8 +18,8 @@
         die("Error God Damn it : ". $conn->error);
         } else {
 
-        echo "การจองสำเร็จ <br>";
-        header("refresh: 1; url=http://localhost/project/databooking.php");
+            echo "<script> alert('จองทัวร์และชำระเงินสำเร็จ'); </script>";
+            header("refresh: 1; url=http://localhost/project/index.php");
         }
 
     ?>
