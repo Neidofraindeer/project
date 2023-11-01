@@ -49,7 +49,7 @@
                             "<td>".$row["Email"]."</td>".
                             "<td>".$row["Tel"]."</td>".
                             "<td>".$row["Price"]."</td>".
-                            "<td>".$row["File_pay"]."</td>".
+                            '<td><img src="./assets/images/'.$row["File_pay"].'" width="64px"'."></td>".
                             "<td>".$row["Date_pay"]."</td>".
                             "<td>".$row["Comment"]."</td>";
                             echo "</tr>";    

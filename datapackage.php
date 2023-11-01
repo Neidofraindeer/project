@@ -39,7 +39,7 @@
                             echo "<tr> 
                             <td>".$row["Id_pck"]."</td>".
                             "<td>".$row["Name_pck"]."</td>".
-                            "<td>".$row["image"]."</td>".
+                            '<td><img src="./assets/images/'.$row["image"].'" width="64px"'."></td>".
                             "<td>".$row["Price_pck"]."</td>".
                             "<td>".$row["Detail_pck"]."</td>".
                             "<td>"."<a class='btn btn-warning' href='editpackage.php? Id_pck=".$row["Id_pck"]."'>แก้ไข</a>"."</td>".
