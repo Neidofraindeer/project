@@ -437,10 +437,10 @@
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 								<li>
-                                <a href="index.html">หน้าแรก</a>
+                                <a href="index.php">หน้าแรก</a>
                                 </li>
                                 <li>
-                                    <a href="index.html">แพ็กเกจทัวร์</a>
+                                    <a href="index.php">แพ็กเกจทัวร์</a>
                                 </li>
                                 <li>
                                     <a href="picture.html">รูปภาพ</a>
@@ -455,11 +455,11 @@
 						<div class="textwidget">
 							<ul class="menu list-arrow">
 																<li><a href="main13.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก เรือหางยาว </a></li>
-																<li><a href="main14.html">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
-																<li><a href="main15.html">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
-																<li><a href="main16.html">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
-																<li><a href="main17.html">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
-																<li><a href="main12.html">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a></li>
+																<li><a href="main14.php">โปรแกรมทัวร์ พีพี  : เรือสปีดโบ็ท</a></li>
+																<li><a href="main15.php">โปรแกรมทัวร์ 4 เกาะ ทะเลแหวก สปีดโบ๊ท</a></li>
+																<li><a href="main16.php">โปรแกรมทัวร์ 7 เกาะ sunset  เรือหางยาว (รอบบ่าย)</a></li>
+																<li><a href="main17.php">ทัวร์เกาะห้องเรือสปีดโบ๊ท+จุดชมวิว360องศา</a></li>
+																<li><a href="main12.php">ทัวร์ พายเรือคายัคอ่าวท่าเลนครึ่งวัน ( เช้า/บ่าย) </a></li>
 															</ul>
 						</div>
 					</aside>		
